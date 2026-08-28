@@ -1,23 +1,33 @@
 const philosophyItems = [
   {
     id: "01",
-    title: "Collaborative Leadership",
-    text: "True leadership means creating a space where every voice is heard and every team member feels valued. By fostering psychological safety and shared ownership, I empower recruiting teams to move quickly without losing sight of the people behind every hire. Across my time at Twitch, Amazon, and Starbucks, I've found that a genuinely collaborative team dynamic is the strongest predictor of sustained recruiting success."
+    title: "Lead with Expertise",
+    text: "Leadership is earned through knowledge, action, and trust. I lead by example, using my technical expertise to empower teams, drive results, and influence enterprise direction."
   },
   {
     id: "02",
-    title: "Inclusive by Design",
-    text: "I build hiring processes with inclusion built in from the start, not layered on afterward. Co-leading Twitch's Accessibility employee resource group has shown me how much stronger recruiting outcomes get when accessibility and diversity are treated as core design constraints rather than afterthoughts, opening the door to talent that traditional processes routinely overlook."
+    title: "Empower People through Mentorship",
+    text: "I take pride in developing talent. Creating a collaborative, supportive environment where engineers can grow is one of my greatest accomplishments. Mentorship is a multiplier of success."
   },
   {
     id: "03",
-    title: "Data-Driven Decisions",
-    text: "Great recruiting instincts still need to be validated with data. I rely on talent acquisition analytics to steer hiring decisions, track team performance against clear KPIs, and continuously refine sourcing and interview strategy. This data-backed approach has been central to scaling recruiting operations at organizations like Twitch and Amazon Web Services."
+    title: "Quality is Strategic",
+    text: "Quality assurance isn't just a technical function; it's a strategic pillar of business success. My goal is to deliver software that is reliable, scalable, and sustainable."
   },
   {
     id: "04",
-    title: "Global Perspective",
-    text: "Recruiting for organizations that span the United States, EMEA, and APAC requires more than a single playbook applied everywhere. Drawing on international experience across Fortune 500 companies, I build recruiting strategies that respect regional nuance while staying aligned to a unified employer brand and a consistent, high bar for candidate experience."
+    title: "Innovate with Purpose",
+    text: "I embrace innovation when it solves real problems. Whether automating intelligently, refining frameworks, or integrating CI/CD, I focus on solutions with measurable impact."
+  },
+  {
+    id: "05",
+    title: "Think Enterprise-Wide",
+    text: "I operate with a systems mindset. Supporting 30+ teams with shared frameworks creates solutions that scale, unify, and align with enterprise goals."
+  },
+  {
+    id: "06",
+    title: "Communicate & Collaborate Effectively",
+    text: "Great quality is a team sport. I believe in strong cross-functional collaboration, transparent communication, and aligning with stakeholders at every level to ensure success."
   }
 ];
 
@@ -25,10 +35,10 @@ export function Leadership() {
   return (
     <section id="leadership" className="pt-16 pb-12 bg-brand-bg relative overflow-hidden">
       <div className="container-gr">
-        <div className="max-w-4xl mx-auto text-center">
-          <span className="section-label justify-center">LEADERSHIP PHILOSOPHY</span>
+        <div className="max-w-5xl mx-auto text-center">
+          <span className="section-label justify-center">GUIDING PRINCIPLES</span>
           <h2 className="text-5xl md:text-7xl font-display font-light text-brand-primary tracking-tighter leading-tight mb-12 animate-fade-in">
-             Establishing <span className="italic font-bold text-brand-accent">Trust & Inclusion</span> in Global Teams.
+             Leading with <span className="italic font-bold text-brand-accent">Expertise & Purpose</span>.
           </h2>
           
           <div className="grid md:grid-cols-2 gap-x-16 gap-y-12 text-left">
@@ -38,11 +48,11 @@ export function Leadership() {
                   <span className="font-mono text-sm uppercase tracking-widest font-black text-white bg-brand-primary px-3 py-1 rounded-sm shadow-sm opacity-100 transition-all duration-300 transform group-hover:scale-110 group-hover:bg-brand-accent group-hover:shadow-md inline-block">
                     {item.id}
                   </span>
-                  <h3 className="font-display font-extrabold text-3xl text-brand-primary group-hover:text-brand-accent transition-all duration-300">
+                  <h3 className="font-display font-extrabold text-2xl text-brand-primary group-hover:text-brand-accent transition-all duration-300">
                     {item.title}
                   </h3>
                 </div>
-                <p className="text-brand-muted leading-relaxed text-lg md:text-[20px] font-sans">{item.text}</p>
+                <p className="text-brand-muted leading-relaxed text-base font-sans">{item.text}</p>
               </div>
             ))}
           </div>

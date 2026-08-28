@@ -9,12 +9,12 @@ export function Training() {
 
       <div className="container-gr relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="section-label justify-center">ACADEMIC FOUNDATION & EXPERTISE</div>
+          <div className="section-label justify-center">ACADEMIC FOUNDATION</div>
           <h2 className="text-4xl md:text-5xl font-display font-light text-brand-primary leading-tight">
-            Education & <span className="italic font-bold text-brand-accent">Certifications</span>
+            Education & <span className="italic font-bold text-brand-accent">Qualifications</span>
           </h2>
           <p className="font-sans text-brand-muted text-base mt-4">
-            Advanced degrees in Human Resources & Behavioral Psychology combined with executive leadership certifications.
+            Combining business information systems degree with executive test automation strategy and technical leadership.
           </p>
         </div>
 
@@ -23,52 +23,36 @@ export function Training() {
           <div className="lg:col-span-5 flex flex-col items-center">
             <div className="relative w-full max-w-md aspect-[4/5] bg-brand-surface rounded-2xl overflow-hidden border border-brand-primary/10 shadow-premium group">
               <img 
-                src="/images/jean-lanctot.jpg" 
-                alt="Jean Lanctot - Education & Training" 
+                src="/images/KenHill.jpg" 
+                alt="Ken Hill - Education" 
                 className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-bg/90 via-brand-bg/20 to-transparent"></div>
               
               <div className="absolute bottom-0 inset-x-0 p-6 text-left">
                 <div className="inline-flex items-center gap-2 px-3 py-1 bg-brand-accent/90 backdrop-blur-md rounded-full text-white text-[10px] font-mono font-bold uppercase tracking-widest mb-2">
-                  <GraduationCap size={14} /> Master of Science
+                  <GraduationCap size={14} /> Bachelor of Science
                 </div>
-                <h3 className="text-2xl font-display font-bold text-brand-primary">Jean Lanctot</h3>
-                <p className="text-sm font-sans text-brand-muted">Human Resource Management & Psychology</p>
+                <h3 className="text-2xl font-display font-bold text-brand-primary">Ken Hill</h3>
+                <p className="text-sm font-sans text-brand-muted">Business Information Systems</p>
               </div>
             </div>
           </div>
 
-          {/* Right Column: Education & Training Cards */}
+          {/* Right Column: Education Card */}
           <div className="lg:col-span-7 space-y-8">
-            {/* Golden Gate University */}
+            {/* University of Phoenix */}
             <div className="p-8 bg-brand-surface rounded-2xl border border-brand-primary/10 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
               <div className="absolute top-0 right-0 w-2 h-full bg-brand-accent"></div>
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-brand-accent/10 rounded-xl text-brand-accent shrink-0">
-                  <GraduationCap size={24} />
+              <div className="flex items-center gap-6">
+                <div className="w-20 h-20 p-2 bg-white rounded-xl border border-brand-primary/10 shrink-0 flex items-center justify-center">
+                  <img src="/images/UOP.png" alt="University of Phoenix" className="max-w-full max-h-full object-contain" />
                 </div>
                 <div className="space-y-1">
-                  <div className="font-mono text-[10px] font-bold tracking-widest text-brand-accent uppercase">Master of Science (M.S.)</div>
-                  <h3 className="text-2xl font-bold text-brand-primary">Golden Gate University</h3>
-                  <p className="font-display italic text-brand-muted text-lg">Human Resource Management</p>
-                  <p className="font-mono text-xs text-brand-muted/70 pt-1">San Francisco, CA</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Seattle University */}
-            <div className="p-8 bg-brand-surface rounded-2xl border border-brand-primary/10 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-2 h-full bg-brand-primary/20"></div>
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-brand-primary/10 rounded-xl text-brand-primary shrink-0">
-                  <GraduationCap size={24} />
-                </div>
-                <div className="space-y-1">
-                  <div className="font-mono text-[10px] font-bold tracking-widest text-brand-muted uppercase">Bachelor of Arts (B.A.)</div>
-                  <h3 className="text-2xl font-bold text-brand-primary">Seattle University</h3>
-                  <p className="font-display italic text-brand-muted text-lg">Psychology</p>
-                  <p className="font-mono text-xs text-brand-muted/70 pt-1">Seattle, WA</p>
+                  <div className="font-mono text-[10px] font-bold tracking-widest text-brand-accent uppercase">Bachelor of Science (B.S.)</div>
+                  <h3 className="text-2xl font-bold text-brand-primary">University of Phoenix</h3>
+                  <p className="font-display italic text-brand-muted text-lg">Business Information Systems</p>
+                  <p className="font-mono text-xs text-brand-muted/70 pt-1">Phoenix, AZ</p>
                 </div>
               </div>
             </div>
@@ -78,36 +62,36 @@ export function Training() {
               <div className="flex items-center gap-3 mb-4">
                 <Award size={20} className="text-brand-accent" />
                 <h4 className="font-accent text-[11px] font-bold tracking-[0.2em] uppercase opacity-80">
-                  Certifications & Executive Training
+                  Leadership & Technical Highlights
                 </h4>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="flex items-start gap-2">
                   <CheckCircle2 size={16} className="text-brand-accent shrink-0 mt-0.5" />
                   <div>
-                    <div className="font-bold text-sm">SHRM HR Generalist</div>
-                    <div className="text-xs text-brand-muted">Human Resource Certification</div>
+                    <div className="font-bold text-sm">Enterprise QA Architecture</div>
+                    <div className="text-xs text-brand-muted">Scalable Framework Design</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">
                   <CheckCircle2 size={16} className="text-brand-accent shrink-0 mt-0.5" />
                   <div>
-                    <div className="font-bold text-sm">LinkedIn Recruiter Expert</div>
-                    <div className="text-xs text-brand-muted">Certified Recruiter</div>
+                    <div className="font-bold text-sm">CI/CD & DevOps Strategy</div>
+                    <div className="text-xs text-brand-muted">Automated Pipeline Integration</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">
                   <CheckCircle2 size={16} className="text-brand-accent shrink-0 mt-0.5" />
                   <div>
-                    <div className="font-bold text-sm">AIRS Certified Recruiter</div>
-                    <div className="text-xs text-brand-muted">Talent Sourcing & Recruiting</div>
+                    <div className="font-bold text-sm">Employee of the Year Award</div>
+                    <div className="text-xs text-brand-muted">Choice Hotels International</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">
                   <CheckCircle2 size={16} className="text-brand-accent shrink-0 mt-0.5" />
                   <div>
-                    <div className="font-bold text-sm">Situational Leadership</div>
-                    <div className="text-xs text-brand-muted">Management Development</div>
+                    <div className="font-bold text-sm">Technical Mentorship</div>
+                    <div className="text-xs text-brand-muted">Architect & Engineer Talent Growth</div>
                   </div>
                 </div>
               </div>

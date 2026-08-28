@@ -2,10 +2,10 @@ import { motion } from "motion/react";
 
 export function Snapshot() {
   const stats = [
-    { value: "20+", label: "Team Members Led", context: "Global Recruiting Org, Twitch", color: "text-brand-accent" },
-    { value: "2,000+", label: "Employees Supported", context: "Twitch, U.S. / EMEA / APAC", color: "text-brand-azure" },
-    { value: "20+", label: "Years in Recruiting", context: "Microsoft to Twitch", color: "text-brand-vermillion" },
-    { value: "3", label: "Continents", context: "Global Hiring Footprint", color: "text-brand-orchid" },
+    { value: "15+", label: "Years Experience", context: "QA Architecture & IT Leadership", color: "text-brand-accent" },
+    { value: "20+", label: "Frameworks Designed", context: "Advanced QA Test Automation", color: "text-brand-azure" },
+    { value: "30+", label: "Agile Teams Supported", context: "Choice Hotels & CSAA Enterprise", color: "text-brand-vermillion" },
+    { value: "7", label: "Architects Led", context: "Enterprise QA Strategy & Mentorship", color: "text-brand-orchid" },
   ];
 
   return (

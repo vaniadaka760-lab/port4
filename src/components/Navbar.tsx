@@ -1,4 +1,4 @@
-import { Menu, X } from "lucide-react";
+import { Menu, X, ArrowDown } from "lucide-react";
 import { useState, useEffect, MouseEvent } from "react";
 
 export function Navbar() {
@@ -70,11 +70,11 @@ export function Navbar() {
               onClick={(e) => handleScrollToSection(e, "#")}
               className="font-display text-2xl font-light tracking-tighter group transition-colors duration-500 text-brand-primary"
             >
-              JEAN <span className="font-bold italic text-brand-accent group-hover:text-brand-primary transition-colors">LANCTOT</span>
+              KEN <span className="font-bold italic text-brand-accent group-hover:text-brand-primary transition-colors">HILL.</span>
             </a>
           </div>
 
-          <div className="hidden lg:flex gap-6 xl:gap-8 items-center flex-nowrap justify-end">
+          <div className="hidden lg:flex gap-5 xl:gap-7 items-center flex-nowrap justify-end">
             {navItems.map((item) => (
               <a
                 key={item.name}
@@ -85,6 +85,24 @@ export function Navbar() {
                 {item.name}
               </a>
             ))}
+
+            <a
+              href="https://www.linkedin.com/in/ken-hill-4-qa-architecture"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-sans text-[11px] xl:text-xs font-bold tracking-[0.15em] xl:tracking-[0.2em] uppercase transition-colors duration-300 flex items-center gap-1 text-brand-primary/80 hover:text-brand-accent"
+            >
+              <ArrowDown size={13} className="text-brand-accent stroke-[2.5]" />
+              <span>Resume</span>
+            </a>
+
+            <a
+              href="#contact"
+              onClick={(e) => handleScrollToSection(e, "#contact")}
+              className="ml-2 font-display italic text-sm font-medium px-5 py-1.5 border border-brand-accent/60 text-brand-primary hover:bg-brand-accent hover:text-white transition-all duration-300 rounded-sm"
+            >
+              Inquire.
+            </a>
           </div>
 
           <button
@@ -109,7 +127,7 @@ export function Navbar() {
             onClick={(e) => handleScrollToSection(e, "#")}
             className="font-display text-2xl font-light tracking-tighter text-brand-primary"
           >
-            JEAN <span className="font-bold italic text-brand-accent">LANCTOT</span>
+            KEN <span className="font-bold italic text-brand-accent">HILL.</span>
           </a>
           <button
             className="p-2 text-brand-primary cursor-pointer"
@@ -135,21 +153,29 @@ export function Navbar() {
                 {item.name}
               </a>
             ))}
+            
+            <a
+              href="https://www.linkedin.com/in/ken-hill-4-qa-architecture"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-3xl sm:text-5xl font-display italic font-light text-brand-primary hover:text-brand-accent transition-all flex items-center gap-2"
+            >
+              <ArrowDown size={24} className="text-brand-accent" />
+              <span>Resume</span>
+            </a>
           </div>
 
           <div className="mt-12 sm:mt-16 border-t border-brand-primary/10 pt-8 w-full max-w-xs flex flex-col items-center text-center gap-6">
-            {/* TODO: point to Jean's actual resume PDF */}
             <a
-              href="/Jean_Lanctot_Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-bold font-sans tracking-widest uppercase text-brand-primary hover:text-brand-accent transition-colors"
+              href="#contact"
+              onClick={(e) => handleScrollToSection(e, "#contact")}
+              className="btn-accent w-full text-center"
             >
-              Download Resume
+              Inquire.
             </a>
             <div>
               <div className="section-label justify-center mb-4 text-[9px]">DIRECT INQUIRIES</div>
-              <a href="mailto:hello@jeanlanctot.com" className="text-lg sm:text-xl font-display font-medium text-brand-accent hover:text-brand-primary transition-colors">hello@jeanlanctot.com</a>
+              <a href="https://www.linkedin.com/in/ken-hill-4-qa-architecture" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-display font-medium text-brand-accent hover:text-brand-primary transition-colors">LinkedIn Profile</a>
             </div>
           </div>
         </div>

@@ -4,92 +4,88 @@ import { ArrowRight } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
-      category: "Talent Leadership",
-      company: "Twitch",
-      period: "2020 – Present",
-      title: "Director, Talent Acquisition",
-      description: "Leading a global recruiting organization for Twitch's 2,000+ employees across the U.S., EMEA, and APAC. Directs a team of managers delivering top external talent, drives the Global Expansion team's hiring priorities alongside Amazon, and oversees global employee referral and M&A activity. Also co-leads the Accessibility employee resource group, advancing awareness and inclusion for people with disabilities.",
+      category: "Enterprise QA Leadership",
+      company: "CSAA",
+      period: "2015 – 2024",
+      title: "Senior QA Architect | Enterprise QA Leader",
+      location: "Glendale, AZ",
+      description: "Led a team of six architects and engineers driving strategic automation and quality initiatives across the enterprise. Partnered with senior leadership to align QA best practices with business objectives, championing test automation strategies for 30+ Agile teams.",
       details: [
-        "Leads a 20+ member recruiting team supporting more than ten Twitch executives.",
-        "Co-leads the Accessibility Guild, a resource group for disability inclusion.",
-        "Drives global employee referral and M&A recruiting activity."
+        "Led a team of six architects and engineers driving enterprise quality initiatives.",
+        "Championed enterprise-wide test automation strategies for 30+ Agile teams.",
+        "Designed and implemented 20+ advanced QA frameworks to optimize automation.",
+        "Led integration of CI/CD pipelines, accelerating deployment cycles."
       ],
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1200",
+      image: "/images/CSAA2.png",
     },
     {
-      category: "Global Recruiting",
-      company: "Amazon",
-      period: "2012 – 2019",
-      title: "Talent Acquisition Manager",
-      description: "Managed technical recruiting for Amazon Web Services and led the team supporting Twitch's expanding product organization. Ran large-scale international recruiting events to source software developers, managers, and systems engineers, while building out sourcing, coordination, and interview processes for rapidly scaling teams.",
+      category: "QA Leadership & Strategy",
+      company: "Choice Hotels International",
+      period: "1999 – 2015",
+      title: "Senior SDET | QA Leadership & Strategy",
+      location: "Phoenix, AZ",
+      description: "Played a pivotal role leading, mentoring, and developing automation strategies for 17 Agile teams across multiple applications. Directed seven architects, standardizing automation practices and tools across teams and winning Employee of the Year.",
       details: [
-        "Managed a recruiting team of 18+, including sourcers and coordinators.",
-        "Ran international recruiting events to source engineering talent.",
-        "Supported hiring for AWS and Twitch product organizations."
+        "Led and mentored automation strategies for 17 Agile teams.",
+        "Directed seven architects, standardizing automation tools and practices.",
+        "Designed and managed multiple test automation projects.",
+        "Awarded Employee of the Year for exceptional contributions to QA innovation."
       ],
-      image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=1200",
-    },
-    {
-      category: "Enterprise Recruiting",
-      company: "Starbucks & Fluke",
-      period: "2015 – 2020",
-      title: "Talent Acquisition Manager / Director",
-      description: "Led technical recruiting for Starbucks Technology and Finance, supporting a combined workforce of over 1,000 employees, before moving to Fluke to lead a global talent acquisition team spanning university hiring through VP-level searches. Built and delivered Fluke's first Hiring Manager interview training program.",
-      details: [
-        "Led recruiting for Starbucks Technology and Finance organizations.",
-        "Built Fluke's first formal hiring manager interview training.",
-        "Selected as a Team Lead at Linkage's Women in Leadership Institute, 2019."
-      ],
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1200",
+      image: "/images/Choice.png",
     }
   ];
 
   return (
     <section id="experience" className="pt-0 pb-32 bg-brand-surface">
       <div className="container-gr">
-        <div className="max-w-3xl mb-24">
-          <div className="section-label lg:justify-start">PORTFOLIO OF IMPACT</div>
+        <div className="max-w-3xl mb-24 pt-20">
+          <div className="section-label lg:justify-start">CAREER ROLES & IMPACT</div>
           <h2 className="text-5xl md:text-6xl font-display font-light text-brand-primary tracking-tighter leading-tight">
-             Selected <span className="italic font-bold text-brand-accent">Milestones</span> in Global Talent Leadership.
+             Selected <span className="italic font-bold text-brand-accent">Milestones</span> in Quality Leadership.
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {experiences.map((exp, index) => (
             <div 
               key={index} 
-              className="group flex flex-col h-full bg-brand-bg border border-brand-primary/5 shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden"
+              className="group flex flex-col h-full bg-brand-bg border border-brand-primary/10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden"
             >
-              {/* Card Image */}
-              <div className="relative aspect-[4/3] overflow-hidden">
+              {/* Card Header / Logo */}
+              <div className="relative h-48 bg-white flex items-center justify-center p-8 border-b border-brand-primary/10">
                  <img 
                   src={exp.image} 
                   alt={exp.company} 
-                  className="w-full h-full object-cover brightness-105 group-hover:scale-105 transition-transform duration-700"
+                  className="max-h-24 max-w-[80%] object-contain group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute top-6 left-6 px-4 py-2 bg-white/90 backdrop-blur-sm border border-brand-primary/5 text-[9px] font-mono font-bold tracking-[0.3em] uppercase">
+                <div className="absolute top-6 left-6 px-4 py-2 bg-brand-bg border border-brand-primary/10 text-[9px] font-mono font-bold tracking-[0.3em] uppercase">
                    {exp.period}
                 </div>
               </div>
 
               {/* Card Content */}
               <div className="p-10 flex flex-col flex-1">
-                <div className="text-[10px] font-mono font-extrabold tracking-widest text-brand-accent uppercase mb-4">
+                <div className="text-[10px] font-mono font-extrabold tracking-widest text-brand-accent uppercase mb-2">
                    {exp.category}
                 </div>
-                <h3 className="text-4xl font-display font-bold text-brand-primary mb-4 leading-tight">
+                <h3 className="text-3xl font-display font-bold text-brand-primary mb-1 leading-tight">
                    {exp.company}
                 </h3>
-                <h4 className="text-sm font-sans font-bold text-brand-primary/60 mb-6 italic">
-                   {exp.title}
+                <h4 className="text-sm font-sans font-bold text-brand-primary/70 mb-6 italic">
+                   {exp.title} • {exp.location}
                 </h4>
-                <p className="text-sm text-brand-muted font-sans leading-relaxed mb-10 flex-1">
+                <p className="text-sm text-brand-muted font-sans leading-relaxed mb-8">
                    {exp.description}
                 </p>
 
-                <div className="pt-8 border-t border-brand-primary/5 flex items-center justify-between group-hover:text-brand-accent transition-colors">
-                   <span className="text-[10px] font-mono font-bold tracking-[0.3em] uppercase">Executive Case Study</span>
-                   <ArrowRight size={16} />
+                <div className="space-y-3 pt-6 border-t border-brand-primary/5">
+                  <div className="font-mono text-[10px] font-bold tracking-widest text-brand-primary uppercase mb-2">Key Accomplishments</div>
+                  {exp.details.map((detail, idx) => (
+                    <div key={idx} className="flex items-start gap-3 text-xs text-brand-muted">
+                      <div className="w-1.5 h-1.5 bg-brand-accent rounded-full mt-1 shrink-0"></div>
+                      <span>{detail}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

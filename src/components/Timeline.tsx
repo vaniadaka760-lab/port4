@@ -2,44 +2,28 @@ import { motion } from "motion/react";
 
 const events = [
   {
-    year: "2021",
-    period: "2021 – Present",
-    role: "Director, Talent Acquisition",
-    company: "Twitch",
-    location: "Global",
-    desc: "Leads a global recruiting organization for Twitch's 2,000+ employees across the U.S., EMEA, and APAC. Directs the Global Expansion team's hiring priorities alongside Amazon, oversees global employee referral and M&A recruiting, and co-leads the Accessibility employee resource group.",
-  },
-  {
-    year: "2020",
-    period: "2020 – 2021",
-    role: "Senior Manager, Talent Acquisition",
-    company: "Twitch",
-    location: "Global",
-    desc: "Stepped into Twitch's talent acquisition leadership team, building out the recruiting function to support rapid headcount growth while co-leading the Accessibility Guild ERG.",
-  },
-  {
-    year: "2019",
-    period: "2019 – 2020",
-    role: "Director of Talent Acquisition",
-    company: "Fluke (a Fortive Company)",
-    location: "Everett, WA",
-    desc: "Led a global talent acquisition team delivering hires from university talent through VP-level searches. Built and delivered Fluke's first Hiring Manager interview training program and was selected as a Team Lead at Linkage's Women in Leadership Institute Conference.",
+    year: "2024",
+    period: "2015 – 2024",
+    role: "Senior QA Architect | Enterprise QA Leader",
+    company: "CSAA Insurance Group",
+    location: "Glendale, AZ",
+    desc: "Led a team of six architects and engineers driving strategic automation and quality initiatives across the enterprise, establishing scalable testing solutions for 30+ Agile teams.",
   },
   {
     year: "2015",
-    period: "2015 – 2019",
-    role: "Talent Acquisition Manager",
-    company: "Amazon / Starbucks",
-    location: "Seattle, WA",
-    desc: "Managed technical recruiting teams supporting Amazon Web Services and Starbucks Technology and Finance, spanning a combined workforce of over 1,000 employees and more than five corporate vice presidents.",
+    period: "1999 – 2015",
+    role: "Senior SDET | QA Leadership & Strategy",
+    company: "Choice Hotels International",
+    location: "Phoenix, AZ",
+    desc: "Led, mentored, and developed automation strategies for 17 Agile teams across multiple applications, directing 7 architects and earning the Employee of the Year award.",
   },
   {
-    year: "2012",
-    period: "2012 – 2015",
-    role: "Recruiting Manager",
-    company: "Amazon Web Services",
-    location: "Seattle, WA",
-    desc: "Managed a recruiting team of 18+, including sourcers and recruiting coordinators, and ran large-scale international recruiting events sourcing software developers, managers, and systems engineers.",
+    year: "Degree",
+    period: "Degree",
+    role: "Bachelor of Science in Business Information Systems",
+    company: "University of Phoenix",
+    location: "Phoenix, AZ",
+    desc: "Earned B.S. degree in Business Information Systems, laying the technical foundation for a 15+ year executive career in IT Quality Assurance.",
   },
 ];
 
@@ -51,10 +35,10 @@ export function Timeline() {
           <div className="section-label justify-center">CAREER ROADMAP</div>
           <h2 className="text-6xl md:text-9xl font-display italic font-light text-brand-primary tracking-tighter leading-none mb-10">
             A Journey <br />
-            <span className="font-bold not-italic">of Impact.</span>
+            <span className="font-bold not-italic">of Quality.</span>
           </h2>
           <p className="text-xl text-brand-muted font-display italic leading-relaxed max-w-2xl mx-auto">
-            Tracing a 20+ year trajectory across Microsoft, Amazon, Starbucks, Fluke, and Twitch.
+            Tracing 15+ years of quality assurance leadership across Choice Hotels International and CSAA.
           </p>
         </div>
 
@@ -89,7 +73,7 @@ export function Timeline() {
                   <div className="flex-1">
                     <div className="flex flex-col md:flex-row md:items-start justify-between gap-8 mb-8">
                       <div>
-                        <h3 className="text-4xl md:text-6xl font-display font-bold text-brand-primary mb-3 tracking-tighter">
+                        <h3 className="text-3xl md:text-5xl font-display font-bold text-brand-primary mb-3 tracking-tighter">
                           {event.role}
                         </h3>
                         <p className="text-xl font-display italic text-brand-accent">
@@ -101,7 +85,7 @@ export function Timeline() {
                       </div>
                     </div>
                     
-                    <p className="text-2xl text-brand-muted font-display italic leading-relaxed max-w-3xl">
+                    <p className="text-xl text-brand-muted font-display italic leading-relaxed max-w-3xl">
                       {event.desc}
                     </p>
                   </div>

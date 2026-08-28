@@ -3,20 +3,20 @@ import { FileText, Download, CheckCircle2, ArrowUpRight } from "lucide-react";
 export function Resume() {
   const resumeHighlights = [
     {
-      category: "Global Talent Leadership",
-      detail: "Directed 20+ member recruiting orgs supporting 2,000+ employees across North America, EMEA, and APAC."
+      category: "Enterprise QA Leadership",
+      detail: "Led teams of architects and engineers supporting 30+ Agile teams across enterprise digital platforms."
     },
     {
-      category: "Executive & Technical Sourcing",
-      detail: "Built executive hiring pipelines for VP, Director, and specialized Engineering & Product roles at Twitch, Amazon, Starbucks, and Fluke."
+      category: "Test Automation Architecture",
+      detail: "Designed and implemented 20+ advanced QA automation frameworks across Web, Mobile, and API testing."
     },
     {
-      category: "Diversity & Inclusion (DEI)",
-      detail: "Co-led Twitch Accessibility Guild ERG, designing inclusive hiring programs and accessible interviewing standards."
+      category: "QA & DevOps Transformation",
+      detail: "Transformed siloed QA departments into enterprise powerhouses with integrated CI/CD pipelines."
     },
     {
-      category: "Systems & Program Design",
-      detail: "Designed Fluke's first global Hiring Manager Training program and implemented data-backed talent analytics."
+      category: "Talent Development & Mentorship",
+      detail: "Recruited, trained, and mentored QA engineers and architects, building high-performing technical teams."
     }
   ];
 
@@ -31,13 +31,13 @@ export function Resume() {
                 Curriculum Vitae & <span className="italic font-bold text-brand-accent">Executive Summary</span>
               </h2>
               <p className="text-base text-brand-muted font-sans mt-3 max-w-xl">
-                Comprehensive overview of 20+ years of talent acquisition leadership, strategic workforce planning, and organizational scaling.
+                Comprehensive overview of 15+ years of IT Quality Assurance leadership, test automation strategy, and team development.
               </p>
             </div>
 
             <div className="flex flex-wrap items-center gap-4">
               <a
-                href="/Jean_Lanctot_Resume.pdf"
+                href="/images/Ken_Hill_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-accent px-8 py-4 flex items-center gap-3 text-sm font-bold tracking-widest uppercase shadow-md hover:shadow-lg transition-all"
@@ -46,7 +46,7 @@ export function Resume() {
                 Download PDF
               </a>
               <a
-                href="/Jean_Lanctot_Resume.pdf"
+                href="/images/Ken_Hill_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-4 border border-brand-primary/20 text-brand-primary hover:bg-brand-primary hover:text-white rounded-md text-sm font-bold tracking-widest uppercase transition-all flex items-center gap-2"

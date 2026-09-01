@@ -3,29 +3,24 @@ import { motion } from "motion/react";
 export function Endorsements() {
   const testimonials = [
     {
-      text: "I had the privilege of working with Ken during his time as Senior IT Architect Lead, where he demonstrated an ideal balance between technical expertise and leadership. Leading a team of four architects, Ken played a pivotal role in delivering the test strategy we had in place. His 'can do' attitude and ability to inspire trust made him a key contributor to our team's success.",
-      author: "Prior Leader",
-      role: "CSAA Leadership",
+      text: "Laura Snider excels as a Project Manager, effectively leading both business and IT teams onshore and offshore. She possesses the acumen to manage complex projects and ensure their timely completion.",
+      author: "Executive Leadership",
+      role: "Enterprise PMO Partner",
     },
     {
-      text: "I had the pleasure to work alongside Ken for two years as he led our team of architects in QA. His technical skill sets are top notch along with his ability to translate them into documentable processes. We accomplished so much together and enabled automation marketplace assets for our QA engineers across value stream teams.",
-      author: "QA Peer",
-      role: "Enterprise QA Architecture Team",
+      text: "Her ability to navigate diverse team dynamics and maintain seamless collaboration across various locations speaks to her exceptional leadership and organizational skills.",
+      author: "Global IT Director",
+      role: "Cross-Functional Collaboration",
     },
     {
-      text: "Ken is not only deeply knowledgeable in his field but also a genuinely trusting and supportive leader. Ken has a remarkable ability to foster an environment where creativity can flourish. He encourages his team to explore various approaches, leading to innovative solutions and a dynamic work culture.",
-      author: "Senior IT Peer",
-      role: "Collaborative Leadership",
+      text: "Laura is described as an empathetic leader, trusted by her teams and executive level management. She holds herself to a higher standard and empowers everyone around her.",
+      author: "Senior Business Stakeholder",
+      role: "Executive Alignment",
     },
     {
-      text: "It was an absolute pleasure to work with Ken on the CSAA project. As a Lead Test Automation Architect, he brought exceptional technical expertise and leadership to the table. Ken consistently delivered innovative solutions to complex challenges, streamlining test automation processes.",
-      author: "Team Member",
-      role: "CSAA Project Team",
-    },
-    {
-      text: "It was a pleasure to work with Ken for 4+ years. He is an amazing architect and a dedicated worker who is always available to help and mentor the team. His guidance in building the test framework has been invaluable.",
-      author: "Team Member",
-      role: "CSAA QA Automation Team",
+      text: "She skillfully communicates with C-level stakeholders, translating corporate directives into actionable plans for global teams while managing $1B+ budgets with precision.",
+      author: "Program Sponsor",
+      role: "Strategic Delivery",
     }
   ];
 

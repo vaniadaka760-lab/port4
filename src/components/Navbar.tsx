@@ -23,9 +23,11 @@ export function Navbar() {
 
   const navItems = [
     { name: "About", href: "#about" },
+    { name: "Leadership", href: "#leadership" },
+    { name: "Skills", href: "#skills" },
+    { name: "Qualifications", href: "#training" },
     { name: "Experience", href: "#experience" },
-    { name: "Initiatives", href: "#initiatives" },
-    { name: "Endorsements", href: "#recommendations" },
+    { name: "Timeline", href: "#timeline" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -70,7 +72,7 @@ export function Navbar() {
               onClick={(e) => handleScrollToSection(e, "#")}
               className="font-display text-2xl font-light tracking-tighter group transition-colors duration-500 text-brand-primary"
             >
-              KEN <span className="font-bold italic text-brand-accent group-hover:text-brand-primary transition-colors">HILL.</span>
+              LAURA <span className="font-bold italic text-brand-accent group-hover:text-brand-primary transition-colors">SNIDER.</span>
             </a>
           </div>
 
@@ -87,13 +89,13 @@ export function Navbar() {
             ))}
 
             <a
-              href="https://www.linkedin.com/in/ken-hill-4-qa-architecture"
+              href="https://www.linkedin.com/in/laura-snider/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-[11px] xl:text-xs font-bold tracking-[0.15em] xl:tracking-[0.2em] uppercase transition-colors duration-300 flex items-center gap-1 text-brand-primary/80 hover:text-brand-accent"
             >
               <ArrowDown size={13} className="text-brand-accent stroke-[2.5]" />
-              <span>Resume</span>
+              <span>LinkedIn</span>
             </a>
 
             <a
@@ -127,7 +129,7 @@ export function Navbar() {
             onClick={(e) => handleScrollToSection(e, "#")}
             className="font-display text-2xl font-light tracking-tighter text-brand-primary"
           >
-            KEN <span className="font-bold italic text-brand-accent">HILL.</span>
+            LAURA <span className="font-bold italic text-brand-accent">SNIDER.</span>
           </a>
           <button
             className="p-2 text-brand-primary cursor-pointer"
@@ -155,13 +157,13 @@ export function Navbar() {
             ))}
             
             <a
-              href="https://www.linkedin.com/in/ken-hill-4-qa-architecture"
+              href="https://www.linkedin.com/in/laura-snider/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl sm:text-5xl font-display italic font-light text-brand-primary hover:text-brand-accent transition-all flex items-center gap-2"
             >
               <ArrowDown size={24} className="text-brand-accent" />
-              <span>Resume</span>
+              <span>LinkedIn</span>
             </a>
           </div>
 
@@ -175,7 +177,7 @@ export function Navbar() {
             </a>
             <div>
               <div className="section-label justify-center mb-4 text-[9px]">DIRECT INQUIRIES</div>
-              <a href="https://www.linkedin.com/in/ken-hill-4-qa-architecture" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-display font-medium text-brand-accent hover:text-brand-primary transition-colors">LinkedIn Profile</a>
+              <a href="https://www.linkedin.com/in/laura-snider/" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-display font-medium text-brand-accent hover:text-brand-primary transition-colors">LinkedIn Profile</a>
             </div>
           </div>
         </div>

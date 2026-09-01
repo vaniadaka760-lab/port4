@@ -2,10 +2,10 @@ import { motion } from "motion/react";
 
 export function Snapshot() {
   const stats = [
-    { value: "15+", label: "Years Experience", context: "QA Architecture & IT Leadership", color: "text-brand-accent" },
-    { value: "20+", label: "Frameworks Designed", context: "Advanced QA Test Automation", color: "text-brand-azure" },
-    { value: "30+", label: "Agile Teams Supported", context: "Choice Hotels & CSAA Enterprise", color: "text-brand-vermillion" },
-    { value: "7", label: "Architects Led", context: "Enterprise QA Strategy & Mentorship", color: "text-brand-orchid" },
+    { value: "$1B+", label: "Budgets Managed", context: "ServiceNow Cost Plans & Monthly Run Rate", color: "text-brand-accent" },
+    { value: "25+", label: "Years Experience", context: "Enterprise Systems Project & Program Delivery", color: "text-brand-azure" },
+    { value: "PMP", label: "PMI Certified", context: "Project Management Professional Since 1999", color: "text-brand-vermillion" },
+    { value: "CSM", label: "Certified ScrumMaster", context: "Agile, PI Planning & Scrum Framework", color: "text-brand-orchid" },
   ];
 
   return (

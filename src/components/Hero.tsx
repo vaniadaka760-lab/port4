@@ -4,23 +4,23 @@ export function Hero() {
   const trustMetrics = [
     {
       icon: <Users size={16} className="text-brand-accent" />,
-      value: "15+",
-      label: "YEARS QA LEADERSHIP",
+      value: "25+",
+      label: "YEARS EXPERIENCE",
     },
     {
       icon: <Award size={16} className="text-brand-accent" />,
-      value: "20+",
-      label: "FRAMEWORKS DESIGNED",
+      value: "PMP",
+      label: "PMI CERTIFIED",
     },
     {
       icon: <Globe2 size={16} className="text-brand-accent" />,
-      value: "30+",
-      label: "AGILE TEAMS SUPPORTED",
+      value: "CSM",
+      label: "SCRUM MASTER",
     },
     {
       icon: <GraduationCap size={16} className="text-brand-accent" />,
-      value: "B.S.",
-      label: "BUSINESS INFO SYSTEMS",
+      value: "$1B+",
+      label: "BUDGETS MANAGED",
     }
   ];
 
@@ -31,24 +31,24 @@ export function Hero() {
           {/* Narrative Column */}
           <div className="lg:col-span-12 xl:col-span-7 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
             <div className="w-full">
-              <div className="section-label justify-center lg:justify-start">IT QUALITY ASSURANCE LEADER</div>
+              <div className="section-label justify-center lg:justify-start">PROJECT MANAGER / PROGRAM MANAGER</div>
               
               <h1 className="text-6xl md:text-[80px] xl:text-[90px] font-display font-light leading-[0.9] tracking-tighter text-brand-primary mb-10">
-                Ken <br />
-                <span className="italic font-bold text-brand-accent">Hill.</span>
+                Laura <br />
+                <span className="italic font-bold text-brand-accent">Snider.</span>
               </h1>
 
               <div className="max-w-xl mx-auto lg:ml-0">
                 <p className="text-xl md:text-2xl text-brand-muted font-display italic leading-tight mb-8">
-                  Senior QA Architect & IT Leader · Driving Quality Transformation & Enterprise Test Automation
+                  Project Manager II · Agile & Waterfall Enterprise Software Delivery
                 </p>
                 <p className="text-base text-brand-muted font-sans mb-12 leading-relaxed">
-                  Strategic and results-oriented Senior QA Architect and IT Leader with over 15 years of experience driving quality assurance initiatives, leading high-performing teams, and influencing enterprise-wide testing strategies. Proven ability to bridge the gap between technology and business by aligning QA practices with organizational goals.
+                  Laura Snider excels as a Project Manager, effectively leading both business and IT teams onshore and offshore. She possesses the acumen to manage complex enterprise projects up to $1B-$2B and ensure timely completion across Healthcare, Telecommunications, Finance, and Retail environments.
                 </p>
 
                 <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-16">
                   <a href="#experience" className="btn-accent border border-brand-accent">
-                     Career Highlights
+                     Career Experience
                   </a>
                   <a href="#contact" className="btn-outline">
                      Direct Inquiry
@@ -76,8 +76,8 @@ export function Hero() {
           <div className="lg:col-span-12 xl:col-span-5 relative min-h-[450px] lg:min-h-[550px] aspect-[4/5] lg:aspect-auto w-full bg-brand-bg overflow-hidden border border-brand-primary/10 rounded-2xl shadow-premium">
             <div className="absolute inset-0">
               <img 
-                src="/images/KenHill.jpg" 
-                alt="Ken Hill" 
+                src="/images/Laura_Snider.jpg" 
+                alt="Laura Snider" 
                 className="w-full h-full object-cover object-top brightness-105"
               />
               {/* Subtle Overlays */}
@@ -86,9 +86,9 @@ export function Hero() {
 
             <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8 flex justify-center lg:justify-start pointer-events-none">
               <div className="bg-white/80 backdrop-blur-md p-5 sm:p-6 max-w-[280px] sm:max-w-xs border border-brand-primary/5 shadow-premium">
-                <div className="font-mono text-[8px] md:text-[9px] font-bold uppercase tracking-widest text-brand-accent mb-1 md:mb-2">Philosophy</div>
+                <div className="font-mono text-[8px] md:text-[9px] font-bold uppercase tracking-widest text-brand-accent mb-1 md:mb-2">Leadership Philosophy</div>
                 <div className="text-sm sm:text-base font-display italic text-brand-primary leading-snug">
-                   "Quality assurance isn't just a technical function — it's a strategic pillar of business success."
+                   "Empathetic leadership, trusted by global teams and executive management to deliver results."
                 </div>
               </div>
             </div>

@@ -1,62 +1,53 @@
-import { Target, Users, Lightbulb, Briefcase, TrendingUp, Cpu } from "lucide-react";
+import { Target, Users, Lightbulb, Briefcase, TrendingUp, Cpu, DollarSign, Layers } from "lucide-react";
 
 export function Skills() {
   const strengths = [
-    { title: "Enterprise QA Strategy", icon: Target },
-    { title: "Test Automation Architecture", icon: Cpu },
-    { title: "Talent Mentorship & Growth", icon: Users },
-    { title: "CI/CD & DevOps Integration", icon: Lightbulb },
-    { title: "Cross-Functional Leadership", icon: Briefcase },
-    { title: "Process Optimization", icon: TrendingUp },
+    { title: "Project & Program Management", icon: Target },
+    { title: "Budgeting & ServiceNow ROI ($1-2B)", icon: DollarSign },
+    { title: "Team Empowerment & Leadership", icon: Users },
+    { title: "Agile, Scrum & PI Planning", icon: Layers },
+    { title: "Global Onshore/Offshore Vendor Management", icon: Briefcase },
+    { title: "Risk Assessment & Change Controls", icon: TrendingUp },
   ];
 
-  const skillset = [
-    "Technology & Strategy Alignment",
-    "Enterprise-Wide QA Leadership",
-    "Cross-Functional Team Management",
-    "Process Improvement & Optimization",
-    "Mentorship & Talent Development",
-    "Stakeholder & Executive Collaboration",
-    "CI/CD & Test Automation Frameworks",
-    "API, GUI, Mobile & Regression Testing",
-    "Agile & DevOps Transformation"
+  const specialization = [
+    { title: "Project Management", desc: "End-to-end delivery of complex enterprise systems across business & IT." },
+    { title: "PMP Certified", desc: "PMBOK methodologies, governance, risk mitigation, and budget tracking." },
+    { title: "Scrum Fundamentals", desc: "Sprint planning, backlog refinement, PI planning, retrospectives." },
+    { title: "Team Empowerment", desc: "Fostering collaboration, empathetic leadership, and clear accountability." },
   ];
 
-  const tools = [
-    { name: "Selenium", logo: "/images/Selenium.png" },
-    { name: "Appium", logo: "/images/Appium2.png" },
-    { name: "TestNG", logo: "/images/testng2.png" },
-    { name: "Rest Assured", logo: "/images/Rest-Assured2.png" },
-    { name: "Sauce Labs", logo: "/images/Saucelabs.png" },
-    { name: "Maven", logo: "/images/Maven.png" },
-    { name: "Jenkins", logo: "/images/Jenkins2.png" },
-    { name: "Java", logo: "/images/Java.png" },
-    { name: "JavaScript", logo: "/images/javascript.png" },
-    { name: "TypeScript", logo: "/images/Typescript.png" },
-    { name: "SQL", logo: "/images/sql.png" },
-    { name: "Git", logo: "/images/git.png" },
-    { name: "SVN", logo: "/images/SVN.png" },
-    { name: "AWS Pipeline", logo: "/images/AWS.png" },
-    { name: "Jira", logo: "/images/Jira2.png" },
-    { name: "Xray", logo: "/images/Xray.jpg" }
+  const qualifications = [
+    "Agile", "JIRA/Confluence", "ADO (Azure DevOps)", "Budgets & Cost Plans",
+    "Team Building & Leadership", "Strategic Business Analysis", "Software Applications",
+    "CRM & Salesforce", "SharePoint", "Initiative & Ethics", "Problem Solving",
+    "Capacity Planning", "Waterfall", "MS Project / PWA", "Planview",
+    "Risk Management & Assessment", "Change Controls", "Global Deployments", "SDLC",
+    "Interpersonal Relations", "Even Temperament", "Excellent Communication", "Writing Skills",
+    "Documentation & Training", "Project Management", "PMO", "Company Acquisitions & Integrations",
+    "Vendor Management", "Client Management", "PMBOK Methodologies", "Process Management",
+    "Thoroughness", "Empowers Others", "Time Management", "Marketing",
+    "AIO & Spotfire Reporting", "ServiceNow"
   ];
 
   return (
     <section id="skills" className="py-32 bg-brand-bg">
       <div className="container-gr space-y-24">
+        {/* Core Specialization & Strengths */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
-          {/* Left: Skillset & Specialization */}
-          <div className="space-y-16 text-center lg:text-left flex flex-col items-center lg:items-start">
+          {/* Left: Specialization */}
+          <div className="space-y-12 text-center lg:text-left flex flex-col items-center lg:items-start">
             <div>
-              <div className="section-label justify-center lg:justify-start">CORE CAPABILITIES</div>
+              <div className="section-label justify-center lg:justify-start">CORE SPECIALIZATION</div>
               <h2 className="text-4xl font-black mb-8 text-brand-primary uppercase tracking-tighter leading-none">
-                Mastering Enterprise <br /> QA & Automation
+                Specialization & <br /> Enterprise Focus
               </h2>
-              <div className="space-y-4 text-left">
-                {skillset.map(item => (
-                  <div key={item} className="flex items-center gap-4">
-                    <div className="w-2 h-2 bg-brand-accent rounded-full shrink-0"></div>
-                    <span className="font-display italic text-lg text-brand-primary">{item}</span>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left w-full">
+                {specialization.map(item => (
+                  <div key={item.title} className="p-6 bg-brand-surface border border-brand-primary/10 rounded-xl space-y-2">
+                    <div className="w-2 h-2 bg-brand-accent rounded-full"></div>
+                    <h3 className="font-display font-bold text-lg text-brand-primary">{item.title}</h3>
+                    <p className="text-xs font-sans text-brand-muted leading-relaxed">{item.desc}</p>
                   </div>
                 ))}
               </div>
@@ -65,11 +56,11 @@ export function Skills() {
 
           {/* Right: Core Strengths */}
           <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
-            <div className="section-label justify-center lg:justify-start">CORE STRENGTHS</div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full justify-items-center lg:justify-items-start">
+            <div className="section-label justify-center lg:justify-start">KEY CAPABILITIES</div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full justify-items-center lg:justify-items-start">
               {strengths.map((strength, idx) => (
-                <div key={idx} className="group p-8 border border-brand-primary/5 rounded-2xl bg-brand-bg hover:bg-brand-secondary hover:text-white transition-all duration-500 w-full max-w-xs sm:max-w-none shadow-sm">
-                  <strength.icon className="w-8 h-8 mb-6 mx-auto lg:ml-0 text-brand-accent group-hover:text-white transition-colors" />
+                <div key={idx} className="group p-6 border border-brand-primary/5 rounded-2xl bg-brand-bg hover:bg-brand-secondary hover:text-white transition-all duration-500 w-full max-w-xs sm:max-w-none shadow-sm">
+                  <strength.icon className="w-8 h-8 mb-4 mx-auto lg:ml-0 text-brand-accent group-hover:text-white transition-colors" />
                   <h3 className="font-accent text-[11px] font-black tracking-[0.2em] uppercase leading-relaxed">
                     {strength.title}
                   </h3>
@@ -79,26 +70,23 @@ export function Skills() {
           </div>
         </div>
 
-        {/* Test Automation Tools Grid */}
+        {/* Qualifications Cloud Grid */}
         <div className="border-t border-brand-primary/10 pt-20">
           <div className="text-center mb-12">
-            <div className="section-label justify-center">TEST AUTOMATION TOOLS & TECH STACK</div>
-            <h3 className="text-3xl font-display font-light text-brand-primary">
-              Proven Expertise Across <span className="italic font-bold text-brand-accent">Enterprise Tooling</span>
+            <div className="section-label justify-center">QUALIFICATIONS & METHODOLOGIES</div>
+            <h3 className="text-3xl md:text-4xl font-display font-light text-brand-primary">
+              Comprehensive <span className="italic font-bold text-brand-accent">Management & Tooling Skillset</span>
             </h3>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-6">
-            {tools.map((tool, idx) => (
-              <div 
+          <div className="flex flex-wrap justify-center gap-3 max-w-5xl mx-auto">
+            {qualifications.map((q, idx) => (
+              <span 
                 key={idx} 
-                className="flex flex-col items-center justify-center p-4 bg-white/70 backdrop-blur-xs border border-brand-primary/10 rounded-xl hover:border-brand-accent/50 hover:shadow-md transition-all duration-300 group"
+                className="px-4 py-2 bg-brand-surface border border-brand-primary/10 rounded-full font-mono text-xs font-semibold text-brand-primary hover:bg-brand-accent hover:text-white hover:border-brand-accent transition-all duration-300 shadow-xs cursor-default"
               >
-                <div className="w-12 h-12 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-                  <img src={tool.logo} alt={tool.name} className="max-w-full max-h-full object-contain" />
-                </div>
-                <span className="font-mono text-[10px] font-bold text-brand-primary uppercase tracking-wider text-center">{tool.name}</span>
-              </div>
+                {q}
+              </span>
             ))}
           </div>
         </div>

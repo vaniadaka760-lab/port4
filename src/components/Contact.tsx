@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, Phone, ArrowRight } from "lucide-react";
+import { Mail, Phone, ArrowRight, Linkedin } from "lucide-react";
 
 export function Contact() {
   return (
@@ -17,10 +17,10 @@ export function Contact() {
                 <div className="font-mono text-[11px] uppercase tracking-[0.5em] text-brand-accent font-bold mb-10">CONNECT & COLLABORATE</div>
                 <h2 className="text-6xl md:text-[80px] lg:text-[100px] font-display font-light leading-[0.88] tracking-tighter mb-12">
                    Let's build <br />
-                   <span className="italic font-bold text-brand-accent">quality together.</span>
+                   <span className="italic font-bold text-brand-accent">success together.</span>
                 </h2>
                 <p className="text-xl md:text-2xl font-display italic text-brand-bg/60 leading-relaxed max-w-sm mx-auto lg:ml-0 mb-16">
-                   Available for enterprise QA strategy, test automation leadership, and technical advisory roles.
+                   Available for executive Project Management, Program Management, and IT Advisory consulting opportunities.
                 </p>
                 <div className="flex items-center justify-center lg:justify-start gap-6">
                    <div className="h-px w-20 bg-brand-accent"></div>
@@ -36,41 +36,45 @@ export function Contact() {
                whileInView={{ opacity: 1, x: 0 }}
                transition={{ duration: 1 }}
                viewport={{ once: true }}
-               className="space-y-16 w-full"
+               className="space-y-12 w-full"
              >
-                <div className="space-y-12">
-                   <a href="https://www.linkedin.com/in/ken-hill-4-qa-architecture" target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center lg:items-start gap-2">
+                <div className="space-y-8">
+                   <a href="https://www.linkedin.com/in/laura-snider/" target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center lg:items-start gap-2">
                       <div className="font-mono text-[11px] uppercase tracking-widest text-brand-muted mb-2">LinkedIn Network</div>
                       <div className="text-2xl md:text-3xl font-display font-bold text-brand-primary group-hover:text-brand-accent transition-colors flex items-center justify-center lg:justify-start gap-4">
-                         /in/ken-hill-4-qa-architecture
+                         /in/laura-snider/
                          <ArrowRight className="hidden md:block opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all" size={24} />
                       </div>
                    </a>
 
-                   <a href="/images/Ken_Hill_Resume.pdf" target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center lg:items-start gap-2">
-                      <div className="font-mono text-[11px] uppercase tracking-widest text-brand-muted mb-2">Executive Resume</div>
-                      <div className="text-2xl md:text-3xl font-display font-bold text-brand-primary group-hover:text-brand-accent transition-colors flex items-center justify-center lg:justify-start gap-4">
-                         Download Ken Hill CV
-                         <ArrowRight className="hidden md:block opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all" size={24} />
+                   {/* Interactive Contact Form */}
+                   <form className="space-y-4 pt-4 text-left border-t border-brand-primary/10" onSubmit={(e) => e.preventDefault()}>
+                      <div className="font-mono text-[11px] uppercase tracking-widest text-brand-accent font-bold mb-2">Send Direct Message</div>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                         <input 
+                            type="text" 
+                            placeholder="Your Name" 
+                            className="w-full px-4 py-3 bg-brand-surface border border-brand-primary/10 rounded-md text-sm focus:outline-hidden focus:border-brand-accent text-brand-primary" 
+                         />
+                         <input 
+                            type="email" 
+                            placeholder="Your Email" 
+                            className="w-full px-4 py-3 bg-brand-surface border border-brand-primary/10 rounded-md text-sm focus:outline-hidden focus:border-brand-accent text-brand-primary" 
+                         />
                       </div>
-                   </a>
-                </div>
-
-                <div className="pt-12 border-t border-brand-primary/5 w-full">
-                   <div className="flex flex-col md:flex-row justify-center lg:justify-start gap-10">
-                      <div className="flex flex-col items-center lg:items-start">
-                         <div className="font-mono text-[11px] uppercase tracking-widest text-brand-muted mb-4">Location</div>
-                         <div className="text-sm font-bold font-sans tracking-widest">ARIZONA, UNITED STATES</div>
-                      </div>
-                      <div className="flex flex-col items-center lg:items-start">
-                         <div className="font-mono text-[11px] uppercase tracking-widest text-brand-muted mb-4">Timezone</div>
-                         <div className="text-sm font-bold font-sans tracking-widest">MST / GMT-7</div>
-                      </div>
-                   </div>
+                      <textarea 
+                         rows={4} 
+                         placeholder="Project Details or Inquiry..." 
+                         className="w-full px-4 py-3 bg-brand-surface border border-brand-primary/10 rounded-md text-sm focus:outline-hidden focus:border-brand-accent text-brand-primary"
+                      ></textarea>
+                      <button type="submit" className="btn-accent w-full py-4 text-xs tracking-[0.3em] font-mono uppercase font-bold">
+                         Submit Inquiry
+                      </button>
+                   </form>
                 </div>
                 
-                <a href="https://www.linkedin.com/in/ken-hill-4-qa-architecture" target="_blank" rel="noopener noreferrer" className="btn-accent w-full py-8 text-xs tracking-[0.4em] flex items-center justify-center">
-                   Connect on LinkedIn
+                <a href="https://www.linkedin.com/in/laura-snider/" target="_blank" rel="noopener noreferrer" className="btn-outline w-full py-4 text-xs tracking-[0.3em] flex items-center justify-center gap-2">
+                   <Linkedin size={16} /> Connect on LinkedIn
                 </a>
              </motion.div>
           </div>

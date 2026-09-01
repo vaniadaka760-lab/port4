@@ -2,9 +2,10 @@ import { ArrowUpRight } from "lucide-react";
 
 export function Recognitions() {
   const awards = [
-    { id: "01", year: "Awarded", name: "Employee of the Year Award", org: "Choice Hotels International (Nominated by Peers)" },
-    { id: "02", year: "2015-24", name: "Senior QA Architect & Enterprise Leader", org: "CSAA Insurance Group" },
-    { id: "03", year: "Active", name: "Co-Chair, West Valley Trail Alliance", org: "IMBA Mountain Biking Advocacy Chapter" },
+    { id: "01", year: "1999", name: "PMP — Project Management Professional", org: "PMI Certified | Cert #: 16436 (In Good Standing)" },
+    { id: "02", year: "2019", name: "CSM — Certified ScrumMaster", org: "Scrum Alliance | Cert #: 00100639 (In Good Standing)" },
+    { id: "03", year: "1993", name: "Bachelor of Arts (B.A.)", org: "University of Science and Arts of Oklahoma (Chickasha, OK)" },
+    { id: "04", year: "Present", name: "Project Manager II ($1B-$2B Scale)", org: "Humana, Inc Enterprise Delivery" },
   ];
 
   return (
@@ -12,14 +13,14 @@ export function Recognitions() {
       <div className="container-gr relative z-10">
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-end text-center lg:text-left mb-16 gap-8">
            <div>
-              <div className="section-label justify-center lg:justify-start uppercase tracking-[0.4em]">DISTINCTIONS & AWARDS</div>
+              <div className="section-label justify-center lg:justify-start uppercase tracking-[0.4em]">DISTINCTIONS & CERTIFICATIONS</div>
               <h2 className="text-6xl md:text-8xl font-display font-light text-brand-primary tracking-tighter leading-none">
                  Honors & <br />
-                 <span className="italic font-bold text-brand-accent">Recognitions.</span>
+                 <span className="italic font-bold text-brand-accent">Credentials.</span>
               </h2>
            </div>
            <p className="text-xl text-brand-muted max-w-sm mx-auto lg:ml-0 font-display italic leading-relaxed mb-4">
-              A track record of technical innovation, leadership awards, and peer-recognized excellence.
+              A record of certified excellence, executive trust, and continuous professional mastery.
            </p>
         </div>
 

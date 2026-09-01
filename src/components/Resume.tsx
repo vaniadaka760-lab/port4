@@ -1,22 +1,22 @@
-import { FileText, Download, CheckCircle2, ArrowUpRight } from "lucide-react";
+import { FileText, Download, CheckCircle2, ArrowUpRight, Linkedin } from "lucide-react";
 
 export function Resume() {
   const resumeHighlights = [
     {
-      category: "Enterprise QA Leadership",
-      detail: "Led teams of architects and engineers supporting 30+ Agile teams across enterprise digital platforms."
+      category: "Enterprise Project Management",
+      detail: "Led onshore and offshore business & IT teams delivering multi-million and $1B+ enterprise software initiatives."
     },
     {
-      category: "Test Automation Architecture",
-      detail: "Designed and implemented 20+ advanced QA automation frameworks across Web, Mobile, and API testing."
+      category: "ServiceNow Budget & ROI Control",
+      detail: "Managed resources, cost plans, and calculated Return on Investment (ROI) for projects up to $1B–$2B."
     },
     {
-      category: "QA & DevOps Transformation",
-      detail: "Transformed siloed QA departments into enterprise powerhouses with integrated CI/CD pipelines."
+      category: "Agile & Waterfall Governance",
+      detail: "Proven expertise across Scrum, Sprint Planning, PI Planning, Retrospectives, and traditional Waterfall SDLC."
     },
     {
-      category: "Talent Development & Mentorship",
-      detail: "Recruited, trained, and mentored QA engineers and architects, building high-performing technical teams."
+      category: "C-Level Executive Communication",
+      detail: "Expertly translated corporate strategy into actionable plans for global teams across Healthcare, Telecom, and Banking."
     }
   ];
 
@@ -31,28 +31,19 @@ export function Resume() {
                 Curriculum Vitae & <span className="italic font-bold text-brand-accent">Executive Summary</span>
               </h2>
               <p className="text-base text-brand-muted font-sans mt-3 max-w-xl">
-                Comprehensive overview of 15+ years of IT Quality Assurance leadership, test automation strategy, and team development.
+                Comprehensive overview of 25+ years of Project & Program Management leadership, budget governance, and team alignment.
               </p>
             </div>
 
             <div className="flex flex-wrap items-center gap-4">
               <a
-                href="/images/Ken_Hill_Resume.pdf"
+                href="https://www.linkedin.com/in/laura-snider/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-accent px-8 py-4 flex items-center gap-3 text-sm font-bold tracking-widest uppercase shadow-md hover:shadow-lg transition-all"
               >
-                <Download size={18} />
-                Download PDF
-              </a>
-              <a
-                href="/images/Ken_Hill_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-4 border border-brand-primary/20 text-brand-primary hover:bg-brand-primary hover:text-white rounded-md text-sm font-bold tracking-widest uppercase transition-all flex items-center gap-2"
-              >
-                <FileText size={16} />
-                Preview PDF
+                <Linkedin size={18} />
+                LinkedIn Profile
               </a>
             </div>
           </div>

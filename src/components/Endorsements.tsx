@@ -1,26 +1,26 @@
 import { motion } from "motion/react";
 
 export function Endorsements() {
-  const testimonials = [
+  const endorsements = [
     {
-      text: "Laura Snider excels as a Project Manager, effectively leading both business and IT teams onshore and offshore. She possesses the acumen to manage complex projects and ensure their timely completion.",
-      author: "Executive Leadership",
-      role: "Enterprise PMO Partner",
+      quote: "Lisa brought strong skill sets in strategic planning, organizing, selling, managing and motivating her store staff. Her enthusiasm and willingness to jump in and support her team were amazing. Her involvement in corporate philanthropic programs and STEM events helped us exceed participation goals year over year.",
+      author: "Mary Monroy-Spampinato",
+      role: "Former Microsoft Project Manager & Community Engagement Leader",
     },
     {
-      text: "Her ability to navigate diverse team dynamics and maintain seamless collaboration across various locations speaks to her exceptional leadership and organizational skills.",
-      author: "Global IT Director",
-      role: "Cross-Functional Collaboration",
+      quote: "Lisa has an infectious passion for people and the customer experience. She’s a true go-to-market expert who ties together product deployment, marketing, and field teams with exceptional capital efficiency.",
+      author: "Michael Forrest",
+      role: "CEO & SVP, Retail & Brand Growth Expert",
     },
     {
-      text: "Laura is described as an empathetic leader, trusted by her teams and executive level management. She holds herself to a higher standard and empowers everyone around her.",
-      author: "Senior Business Stakeholder",
-      role: "Executive Alignment",
+      quote: "Lisa exemplified strong leadership with infectious positive energy. She motivated and inspired teams to innovate on behalf of customers, while developing reliable leaders from within.",
+      author: "Lisa Wilson",
+      role: "Senior Program Manager, Prime Video",
     },
     {
-      text: "She skillfully communicates with C-level stakeholders, translating corporate directives into actionable plans for global teams while managing $1B+ budgets with precision.",
-      author: "Program Sponsor",
-      role: "Strategic Delivery",
+      quote: "Lisa unlocks potential in those around her. Her ability to infuse energy into even mundane tasks is truly special. I’d jump at the chance to work with her again.",
+      author: "Josh Imhoff",
+      role: "General Manager, Amazon & Spotify",
     }
   ];
 

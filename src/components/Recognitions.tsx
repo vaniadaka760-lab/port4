@@ -2,10 +2,10 @@ import { ArrowUpRight } from "lucide-react";
 
 export function Recognitions() {
   const awards = [
-    { id: "01", year: "1999", name: "PMP — Project Management Professional", org: "PMI Certified | Cert #: 16436 (In Good Standing)" },
-    { id: "02", year: "2019", name: "CSM — Certified ScrumMaster", org: "Scrum Alliance | Cert #: 00100639 (In Good Standing)" },
-    { id: "03", year: "1993", name: "Bachelor of Arts (B.A.)", org: "University of Science and Arts of Oklahoma (Chickasha, OK)" },
-    { id: "04", year: "Present", name: "Project Manager II ($1B-$2B Scale)", org: "Humana, Inc Enterprise Delivery" },
+    { id: "01", year: "2024", name: "PMP® — Project Management Professional", org: "Project Management Institute (Credly Verified)" },
+    { id: "02", year: "2023", name: "MBE/WBE Certification", org: "City of Chicago Minority & Women’s Business Enterprise" },
+    { id: "03", year: "2010", name: "Bachelor of Arts (B.A.)", org: "Augustana College (Rock Island, IL)" },
+    { id: "04", year: "Present", name: "Managing Director & Executive Director", org: "Metro Growth Inc & Metro Growth Cares" },
   ];
 
   return (

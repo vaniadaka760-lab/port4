@@ -7,10 +7,10 @@ export function Footer() {
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start text-center lg:text-left gap-24 mb-32">
           <div className="max-w-md flex flex-col items-center lg:items-start">
             <div className="font-display text-4xl font-light tracking-tighter text-brand-primary mb-10 text-center lg:text-left">
-              LAURA <span className="font-bold italic text-brand-accent">SNIDER.</span>
+              LISA <span className="font-bold italic text-brand-accent">SEIGNEUR.</span>
             </div>
             <p className="text-xl text-brand-muted font-display italic leading-relaxed text-center lg:text-left">
-              Project Manager & Program Manager driving enterprise software project delivery, ServiceNow budget control, and onshore/offshore team excellence.
+              Executive Leader & Operations Strategist driving growth, innovation, and community change across Fortune 100 companies and high-impact startups.
             </p>
           </div>
           
@@ -21,12 +21,11 @@ export function Footer() {
                 {[
                   { name: "About", href: "#about" },
                   { name: "Leadership", href: "#leadership" },
-                  { name: "Skills", href: "#skills" },
+                  { name: "Skillset", href: "#skills" },
                   { name: "Education & Certs", href: "#training" },
                   { name: "Industry Experience", href: "#initiatives" },
                   { name: "Experience", href: "#experience" },
                   { name: "Timeline", href: "#timeline" },
-                  { name: "Recommendations", href: "#recommendations" },
                   { name: "Contact", href: "#contact" },
                 ].map(link => (
                   <li key={link.name}>
@@ -41,7 +40,7 @@ export function Footer() {
               <div className="section-label justify-center lg:justify-start mb-8">CONNECT</div>
               <ul className="space-y-4">
                 <li>
-                  <a href="https://www.linkedin.com/in/laura-snider/" target="_blank" rel="noopener noreferrer" className="text-sm font-bold font-sans tracking-widest uppercase hover:text-brand-accent transition-colors flex items-center gap-2">
+                  <a href="https://www.linkedin.com/in/lisaseigneur/" target="_blank" rel="noopener noreferrer" className="text-sm font-bold font-sans tracking-widest uppercase hover:text-brand-accent transition-colors flex items-center gap-2">
                     <Linkedin size={16} /> LinkedIn Profile
                   </a>
                 </li>
@@ -52,12 +51,12 @@ export function Footer() {
               <div className="space-y-2">
                  <div className="text-[11px] font-mono font-bold uppercase text-brand-muted tracking-widest">PMP Certification</div>
                  <div className="text-sm font-bold font-sans tracking-wider leading-relaxed">
-                   PMI Certified #16436 (In Good Standing)
+                   Project Management Institute (Jun 2024 - Jun 2027)
                  </div>
               </div>
               <div className="space-y-2 pt-4">
-                 <div className="text-[11px] font-mono font-bold uppercase text-brand-muted tracking-widest">Scrum Certification</div>
-                 <div className="text-sm font-bold font-sans tracking-widest uppercase">Certified ScrumMaster #00100639</div>
+                 <div className="text-[11px] font-mono font-bold uppercase text-brand-muted tracking-widest">Academic Degree</div>
+                 <div className="text-sm font-bold font-sans tracking-widest uppercase">B.A. Business Administration (Augustana College)</div>
               </div>
             </div>
           </div>
@@ -65,10 +64,10 @@ export function Footer() {
         
         <div className="pt-12 border-t border-brand-primary/10 flex flex-col md:flex-row justify-between items-center gap-10">
           <p className="font-mono text-[11px] font-bold tracking-[0.3em] uppercase text-brand-muted">
-            © 2026 LAURA SNIDER. ALL RIGHTS RESERVED.
+            © 2026 LISA SEIGNEUR. ALL RIGHTS RESERVED.
           </p>
           <div className="flex gap-10">
-             <a href="https://www.linkedin.com/in/laura-snider/" target="_blank" rel="noopener noreferrer" className="text-brand-muted hover:text-brand-accent transition-colors"><Linkedin size={18} /></a>
+             <a href="https://www.linkedin.com/in/lisaseigneur/" target="_blank" rel="noopener noreferrer" className="text-brand-muted hover:text-brand-accent transition-colors"><Linkedin size={18} /></a>
           </div>
         </div>
       </div>

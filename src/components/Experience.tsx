@@ -1,207 +1,172 @@
+import { MapPin, Calendar, CheckCircle2 } from "lucide-react";
+
 export function Experience() {
-  const experiences = [
+  const positions = [
     {
-      category: "Healthcare IT & Enterprise Delivery",
-      company: "Humana, Inc",
-      period: "March 2022 – Current",
-      title: "Project Manager",
-      location: "Enterprise PMO",
-      description: "Lead project business and IT teams to ensure timely completion of projects. Actively manage stakeholder partnerships and mitigate risks for projects and programs. Adhere to PMO and governance processes. Manage resources, budget, and cost plans in ServiceNow. Calculate Return on Investment (ROI), manage project budgets for projects $1-2B ensuring projects track to plan and reporting monthly run rate. Experience working in both Agile and Waterfall environments.",
-      details: [
-        "Manage project budgets up to $1B-$2B tracking to plan with monthly run rate reporting.",
-        "Resource management, cost plans, and ROI calculation within ServiceNow.",
-        "Lead business & IT teams across both Agile and Waterfall delivery frameworks."
+      role: "Managing Director - Operations & Strategy",
+      company: "Metro Growth Inc",
+      dates: "2022 - PRESENT",
+      location: "Chicago, IL",
+      highlights: [
+        "Launched organization to enhance community & economic development by professionally upskilling citizens and extending operational support to small businesses and NFPs.",
+        "Led public safety political campaigns and aligned with policing initiatives to reduce neighborhood crime in Chicago.",
+        "Awarded Minority and Women’s Business Enterprise (MBE/WBE) certifications by the City of Chicago.",
+        "Ran full-cycle political campaign for Police District Council candidacy in the 2023 Chicago Municipal Election, receiving high-profile endorsements.",
+        "Analyzed Chicago crime statistics and incident reports to develop local mitigation tactics."
       ]
     },
     {
-      category: "Healthcare IT Consulting",
-      company: "Brooksource for Humana",
-      period: "May 2021 – March 2022",
-      title: "Project Manager",
-      location: "Enterprise Delivery",
-      description: "Lead project business and IT teams to ensure timely completion of projects. Actively manage stakeholder partnerships and mitigate risks for projects and programs. Adhere to PMO governance processes. Manage resources, budget and cost plans in ServiceNow. Experience working in both Agile and Waterfall environments.",
-      details: [
-        "Partnered with IT and business stakeholders to mitigate risks and maintain governance.",
-        "Managed ServiceNow resource allocation, budget tracking, and monthly reporting.",
-        "Facilitated cross-functional collaboration across onshore and offshore teams."
+      role: "Executive Director - Community Development",
+      company: "Metro Growth Cares",
+      dates: "2022 - PRESENT",
+      location: "Chicago, IL",
+      highlights: [
+        "Provided strategic oversight and management of community development and social impact initiatives.",
+        "Advanced corporate citizenship, public safety policy, and non-profit partner relations.",
+        "Directed operational programs and team members in delivering civic support and upskilling opportunities."
       ]
     },
     {
-      category: "Financial Systems & Application Development",
-      company: "Tek Systems for Bank of America",
-      period: "August 2020 – March 2021",
-      title: "Project Manager",
-      location: "Banking Technology",
-      description: "End to end Project Management of large-scale application development projects, which includes project planning, financials, and tollgates. Ensure deliverables are met per timelines using Agile, JIRA, and Confluence methodologies. Work with stakeholders and development teams to ensure timely delivery with executive status reporting.",
-      details: [
-        "End-to-end management of large-scale banking application development projects.",
-        "Maintained project financials, tollgate reviews, and executive status reporting.",
-        "Utilized Agile, JIRA, and Confluence for sprint tracking and deliverable management."
+      role: "Relationship Coach & Published Author",
+      company: "The Wife Advice",
+      dates: "2025 - PRESENT",
+      location: "Publishing & Digital Platforms",
+      highlights: [
+        "Published 'Dating for Marriage' guidebook.",
+        "Delivered 1:1 relationship coaching sessions for executive clients.",
+        "Built social media presence across platforms, sharing strategic relationship advice."
       ]
     },
     {
-      category: "Telecommunications & Enterprise Systems",
-      company: "Pinnacle Group for Frontier Communications",
-      period: "November 2019 – May 2020",
-      title: "Project Manager",
-      location: "Telecom Systems",
-      description: "Responsible for delivery of systems projects including Billing, Finance/Accounting, Customer Experience, CRM, PEGA, Sterling, Data Products International (DPI), Salesforce, Sterling 7 & 9, Dot.com, Sigma, Mobile application, and Enterprise Data Warehouse systems. Proven ability to manage projects with aggressive timelines and changing requirements using Planview, Confluence, and JIRA.",
-      details: [
-        "Delivered complex systems across Billing, CRM, PEGA, Salesforce, and Enterprise Data Warehouse.",
-        "Managed multiple simultaneous implementation projects with vendors and global resources.",
-        "Maintained strict quality standards, scope tracking, and executive stakeholder communication."
+      role: "Chief Operating Officer",
+      company: "SquareResults",
+      dates: "2023 - 2025",
+      location: "Tempe, AZ",
+      highlights: [
+        "Oversaw business and product development for a tech-enabled recruitment platform.",
+        "Drove operational excellence, strategic growth, and talent experience platform innovation.",
+        "Reported directly to CEO for milestone execution and product launches."
       ]
     },
     {
-      category: "Digital Technology & E-Commerce",
-      company: "Neiman Marcus Group",
-      period: "October 2018 – November 2019",
-      title: "Application Project Manager",
-      location: "Digital Technology",
-      description: "Responsible for delivery of web and digital technology-based projects. Strong leadership capabilities in directing project teams and promoting a positive team effort. Strengths include ability to manage large projects with aggressive timelines, challenging scope, and changing business requirements using MS Project, Confluence, and JIRA.",
-      details: [
-        "Led web and digital technology project teams through rapid deployment cycles.",
-        "Developed constructive working relationships with onsite, offshore, and vendor teams.",
-        "Facilitated alignment between business leadership and technical implementation teams."
+      role: "Head of Operations – North America Driver Support",
+      company: "Uber",
+      dates: "2021 - 2022",
+      location: "Chicago, IL",
+      highlights: [
+        "Accountable for physical Driver/Partner support sites across North America (Greenlights).",
+        "Led a large organization of 400+ driver-facing employees to empower drivers and optimize partner network.",
+        "Managed operational budget of 8 figures and core KPIs, establishing actionable data insights."
       ]
     },
     {
-      category: "Digital Technology Consulting",
-      company: "Randstad Technologies for Neiman Marcus Group",
-      period: "April 2018 – October 2018",
-      title: "Application Project Manager",
-      location: "Digital Commerce",
-      description: "Responsible for delivery of web and digital technology-based projects. Strong leadership capabilities in directing project teams and promoting a positive team effort. Proficiency with project management tools including Atlassian Confluence and JIRA. Develops and maintains constructive and cooperative working relationships.",
-      details: [
-        "Managed web and digital technology initiatives under tight release schedules.",
-        "Ensured seamless business-IT alignment across cross-functional workstreams."
+      role: "Head of Operations – Smart Home Services",
+      company: "Amazon",
+      dates: "2018 - 2021",
+      location: "Chicago, IL",
+      highlights: [
+        "Solely led Alexa Smart Home Services transition to Ring subsidiary, overseeing P&L, strategic growth, and 200+ field technicians.",
+        "Maintained 4.95/5 average star rating across 40,000 newly constructed home installations annually.",
+        "Achieved a 99% staff retention rate during business unit acquisition and reorganization."
       ]
     },
     {
-      category: "Telecom & Network Implementations",
-      company: "Maxsys Consulting for Verizon",
-      period: "January 2017 – December 2017",
-      title: "Project Manager",
-      location: "Network & Systems",
-      description: "Leadership in Project Management utilizing SDLC, Waterfall, and Agile methodologies. Responsible for managing IT initiatives, software application upgrades, network implementations, system migrations/conversions, and platform consolidations. Collaborated with cross-functional teams using quantitative analysis and business analysis to drive results.",
-      details: [
-        "Managed software upgrades, network implementations, and platform consolidations.",
-        "Applied quantitative and business analysis to optimize project workflows and success."
+      role: "District Sales Manager",
+      company: "Samsung Electronics",
+      dates: "2014 - 2018",
+      location: "Chicago, IL",
+      highlights: [
+        "Oversaw field operations and brand presence across largest US territory (1,500+ stores across North Central), growing regional revenue from $183M to $400M.",
+        "Awarded 'Top Sales District' for FY2015 and H12017.",
+        "Created national Monthly Operations Execution Guide adopted across Samsung divisions."
       ]
     },
     {
-      category: "Insurance & Financial Systems EPMO",
-      company: "Kemper Corporation",
-      period: "November 2011 – December 2016",
-      title: "Project Manager",
-      location: "EPMO",
-      description: "EPMO Project Manager responsible for key strategic IT projects related to Web, Policy, Rating, Billing, Product Management, Sales, Marketing, and Compliance. Planned and managed project teams (10-40 members across US) with budgets up to $5M and project durations of 1 to 24 months.",
-      details: [
-        "Managed strategic insurance IT projects with budgets up to $5M across national teams.",
-        "Aligned execution with corporate strategy, compliance, ethics, and governance."
+      role: "General Manager",
+      company: "Microsoft",
+      dates: "2009 - 2014",
+      location: "Schaumburg / Chicago, IL",
+      highlights: [
+        "Founding leadership member launching Microsoft Store #1 (Scottsdale, AZ) and expanding 100+ global experience stores.",
+        "Managed 50-mile radius omni-channel performance, B2C/B2B sales, technical support, and community development.",
+        "Grew post-launch local omni-channel revenue by 30% through targeted community engagement and sponsorships."
       ]
     },
     {
-      category: "Cybersecurity & Technical Support Systems",
-      company: "McAfee, Inc.",
-      period: "May 2005 – February 2011",
-      title: "Project Manager",
-      location: "Worldwide Tech Support",
-      description: "Successfully managed multiple projects for the Worldwide Technical Support Organization. Managed software applications, Siebel CRM Implementation, vendor selection, new company acquisition integrations, and infrastructure projects from inception to delivery ($100K–$2M budgets, 10-50 team members).",
-      details: [
-        "Managed Siebel CRM implementations and corporate acquisition integrations.",
-        "Directed multi-site project teams across the US with budgets up to $2M."
+      role: "Founder",
+      company: "Instant Imaging Photography",
+      dates: "2003 - 2009",
+      location: "Chicago, IL",
+      highlights: [
+        "Founded 15-person event photography firm servicing 30 recurring weekly entertainment events in Chicago.",
+        "Built subscription-based marketplace with 30k+ active subscribers and digital marketing channels."
       ]
     },
     {
-      category: "Retail Strategic Concepts",
-      company: "Blockbuster Corporate",
-      period: "August 2002 – May 2004",
-      title: "Project Manager",
-      location: "Strategic Concepts Group",
-      description: "Developed and maintained master project plans and calendars for concept testing (candy, popcorn, gaming in stores). Managed scheduling, estimating, costing, tracking, and reporting for projects ranging 2 to 18 months with budgets of $100K–$500K across US teams.",
-      details: [
-        "Orchestrated store concept rollouts and nationwide resource allocations.",
-        "Utilized cost estimation, deliverable tracking, and milestone reporting."
+      role: "Director of Marketing",
+      company: "STILOSO",
+      dates: "2008",
+      location: "Chicago, IL",
+      highlights: [
+        "Expanded US market share for Italian cabinet manufacturer SCIC Cucine d’Italia in multi-unit residential construction sectors.",
+        "Built accounts with top volume general contractors, real estate developers, and architects."
       ]
     },
     {
-      category: "Global IT Services",
-      company: "Computer Sciences Corporation (CSC)",
-      period: "November 2000 – July 2001",
-      title: "Project Manager",
-      location: "Global Systems",
-      description: "Outsourced from Nortel to CSC. Provided Project Management expertise on full lifecycle systems projects (web-based & client-server) and process-related projects for global deployment ($10K–$500K budgets, global teams).",
-      details: [
-        "Managed CRM implementations and global process initiatives.",
-        "Directed multi-site international project teams."
-      ]
-    },
-    {
-      category: "Global Telecom Systems",
-      company: "Nortel Networks",
-      period: "April 1997 – November 2000",
-      title: "Project Manager",
-      location: "Richardson, TX",
-      description: "Provided Project Management expertise on full lifecycle systems projects (web-based & client-server) and process-related projects for global deployment to internal managers and employees. Managed CRM implementations and marketing materials across global sites.",
-      details: [
-        "Delivered full-lifecycle enterprise web and client-server systems globally.",
-        "Collaborated across international project teams and executive stakeholders."
+      role: "Senior Manager",
+      company: "Apple Computer",
+      dates: "2001 - 2007",
+      location: "Chicago, IL",
+      highlights: [
+        "Founding leadership member of Apple Retail Stores prior to Store #1 opening.",
+        "Launched flagship location on Michigan Avenue in Chicago, participating in national press announcements with Oprah Winfrey & Bono."
       ]
     }
   ];
 
   return (
-    <section id="experience" className="py-32 bg-brand-surface">
+    <section id="experience" className="py-32 bg-brand-surface relative overflow-hidden">
       <div className="container-gr">
-        <div className="max-w-3xl mb-20 pt-10">
-          <div className="section-label lg:justify-start">CAREER ROLES & IMPACT</div>
-          <h2 className="text-5xl md:text-6xl font-display font-light text-brand-primary tracking-tighter leading-tight">
-             Proven Track Record in <span className="italic font-bold text-brand-accent">Executive Project Management</span>.
+        <div className="max-w-4xl mx-auto text-center mb-20">
+          <div className="section-label justify-center">PROFESSIONAL EXPERIENCE & LEADERSHIP</div>
+          <h2 className="text-4xl md:text-6xl font-display font-light text-brand-primary leading-tight">
+            Career <span className="italic font-bold text-brand-accent">Executive Journey</span>
           </h2>
+          <p className="font-sans text-brand-muted text-base mt-4">
+            Proven track record of driving operational excellence, P&L growth, and team transformation across Fortune 100 leaders and startups.
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          {experiences.map((exp, index) => (
+        <div className="max-w-5xl mx-auto space-y-12">
+          {positions.map((pos, idx) => (
             <div 
-              key={index} 
-              className="group flex flex-col h-full bg-brand-bg border border-brand-primary/10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden"
+              key={idx} 
+              className="p-8 md:p-12 bg-brand-bg rounded-2xl border border-brand-primary/10 hover:border-brand-accent/40 transition-all duration-300 shadow-sm hover:shadow-md group"
             >
-              {/* Card Header */}
-              <div className="relative p-8 bg-white border-b border-brand-primary/10 flex flex-col justify-between">
-                <div className="flex justify-between items-start gap-4">
-                  <div>
-                    <span className="font-mono text-[9px] font-bold tracking-[0.25em] uppercase text-brand-accent block mb-1">
-                      {exp.category}
-                    </span>
-                    <h3 className="text-2xl font-display font-bold text-brand-primary">
-                      {exp.company}
-                    </h3>
-                  </div>
-                  <span className="px-3 py-1 bg-brand-surface border border-brand-primary/10 text-[10px] font-mono font-bold text-brand-primary tracking-wider rounded-full shrink-0">
-                    {exp.period}
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-brand-primary/10 pb-6 mb-8">
+                <div>
+                  <span className="font-mono text-xs font-bold uppercase tracking-widest text-brand-accent mb-1 block">
+                    {pos.company}
                   </span>
+                  <h3 className="text-2xl md:text-3xl font-display font-bold text-brand-primary group-hover:text-brand-accent transition-colors">
+                    {pos.role}
+                  </h3>
                 </div>
-                <div className="text-xs font-sans font-bold text-brand-muted mt-2 italic">
-                  {exp.title} • {exp.location}
+                <div className="flex flex-col md:items-end gap-1 font-mono text-xs text-brand-muted">
+                  <span className="flex items-center gap-1 font-bold text-brand-primary"><Calendar size={14} className="text-brand-accent" /> {pos.dates}</span>
+                  <span className="flex items-center gap-1"><MapPin size={14} /> {pos.location}</span>
                 </div>
               </div>
 
-              {/* Card Content */}
-              <div className="p-8 flex flex-col flex-1 justify-between space-y-6">
-                <p className="text-xs md:text-sm text-brand-muted font-sans leading-relaxed">
-                   {exp.description}
-                </p>
-
-                <div className="space-y-2 pt-4 border-t border-brand-primary/5">
-                  <div className="font-mono text-[9px] font-bold tracking-widest text-brand-primary uppercase mb-2">Key Deliverables</div>
-                  {exp.details.map((detail, idx) => (
-                    <div key={idx} className="flex items-start gap-2 text-xs text-brand-muted">
-                      <div className="w-1.5 h-1.5 bg-brand-accent rounded-full mt-1.5 shrink-0"></div>
-                      <span>{detail}</span>
-                    </div>
-                  ))}
-                </div>
+              <div className="space-y-3">
+                {pos.highlights.map((point, i) => (
+                  <div key={i} className="flex items-start gap-3">
+                    <CheckCircle2 size={16} className="text-brand-accent shrink-0 mt-1" />
+                    <p className="text-sm md:text-base font-sans text-brand-primary/80 leading-relaxed">
+                      {point}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
           ))}

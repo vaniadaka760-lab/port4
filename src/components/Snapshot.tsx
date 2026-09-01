@@ -2,10 +2,10 @@ import { motion } from "motion/react";
 
 export function Snapshot() {
   const stats = [
-    { value: "$1B+", label: "Budgets Managed", context: "ServiceNow Cost Plans & Monthly Run Rate", color: "text-brand-accent" },
-    { value: "25+", label: "Years Experience", context: "Enterprise Systems Project & Program Delivery", color: "text-brand-azure" },
-    { value: "PMP", label: "PMI Certified", context: "Project Management Professional Since 1999", color: "text-brand-vermillion" },
-    { value: "CSM", label: "Certified ScrumMaster", context: "Agile, PI Planning & Scrum Framework", color: "text-brand-orchid" },
+    { value: "400+", label: "Support Staff Led", context: "Uber North America Driver Operations", color: "text-brand-accent" },
+    { value: "$400M", label: "Regional Revenue", context: "Samsung Electronics Field Operations Growth", color: "text-brand-azure" },
+    { value: "100+", label: "Stores Launched", context: "Microsoft & Apple National DTC Expansion", color: "text-brand-vermillion" },
+    { value: "PMP®", label: "PMI Certified", context: "Project Management Professional Credentials", color: "text-brand-orchid" },
   ];
 
   return (

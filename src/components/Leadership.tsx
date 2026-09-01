@@ -1,33 +1,33 @@
 const philosophyItems = [
   {
     id: "01",
-    title: "Exceptional Outcomes",
-    text: "Laura has a proven track record of achieving remarkable results even when working with aggressive timelines, challenging scope, and rapid business changes."
+    title: "Servant Leadership & Trust",
+    text: "Leadership centers on servant leadership, stakeholder trust, and continuous improvement. Cultivating high-performing cultures and inspiring teams."
   },
   {
     id: "02",
-    title: "Empathetic & Trusted Leadership",
-    text: "Described as an empathetic leader, trusted by global teams and executive management. Building strong, cooperative relationships onshore and offshore."
+    title: "Operational Excellence",
+    text: "Defines execution requirements, builds standards of work, and aligns entire organizations to unified operations and credible financial performance."
   },
   {
     id: "03",
-    title: "Consistent Project Delivery",
-    text: "Consistently ensures enterprise software projects are completed on time, within scope, within budget, and in strict compliance with regulatory requirements."
+    title: "Excellence in Project Management",
+    text: "Showcases proven capacity to manage complex initiatives from vision to delivery at Metro Growth Inc, SquareResults, and Fortune 100 leaders."
   },
   {
     id: "04",
-    title: "Expert Executive Communication",
-    text: "Excels in communicating effectively with all organizational levels, seamlessly translating corporate directives into actionable plans for global technical teams."
+    title: "Talent Empowerment & Morale",
+    text: "Prioritizes culture, clarity, and employee career development, resulting in exceptional team morale and 99% retention during business transitions."
   },
   {
     id: "05",
-    title: "Agile & Scrum Mastery",
-    text: "Facilitates and supports Agile environments using Scrum, including Backlog Grooming, Sprint Planning, Program Increment (PI) Planning, and Retrospectives."
+    title: "Civic & Community Responsibility",
+    text: "Advancing corporate citizenship, social impact programs via Metro Growth Cares, public safety campaigns, and MBE/WBE certified initiatives."
   },
   {
     id: "06",
-    title: "End-to-End Orchestration",
-    text: "Orchestrates and tracks the complete project lifecycle across design, development, integration, testing, and deployment phases for seamless execution."
+    title: "Go-To-Market Execution",
+    text: "Tying together product deployment, marketing, and field operations with exceptional capital efficiency and customer adoption."
   }
 ];
 
@@ -36,9 +36,9 @@ export function Leadership() {
     <section id="leadership" className="pt-16 pb-12 bg-brand-bg relative overflow-hidden">
       <div className="container-gr">
         <div className="max-w-5xl mx-auto text-center">
-          <span className="section-label justify-center">PROJECT LEADERSHIP & EXPERTISE</span>
+          <span className="section-label justify-center">VALUES & GUIDING PRINCIPLES</span>
           <h2 className="text-5xl md:text-7xl font-display font-light text-brand-primary tracking-tighter leading-tight mb-12 animate-fade-in">
-             Leading with <span className="italic font-bold text-brand-accent">Excellence & Trust</span>.
+             Excellence in <span className="italic font-bold text-brand-accent">Leadership & Operations</span>.
           </h2>
           
           <div className="grid md:grid-cols-2 gap-x-16 gap-y-12 text-left">

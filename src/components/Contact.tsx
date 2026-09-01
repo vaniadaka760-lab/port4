@@ -70,12 +70,18 @@ export function Contact() {
                       <button type="submit" className="btn-accent w-full py-4 text-xs tracking-[0.3em] font-mono uppercase font-bold">
                          Submit Inquiry
                       </button>
+                      <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                        <a 
+                          href="https://www.linkedin.com/in/lisaseigneur/" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="btn-accent px-8 py-4 text-sm tracking-widest font-bold uppercase flex items-center gap-3"
+                        >
+                          <Linkedin size={18} /> Connect on LinkedIn
+                        </a>
+                      </div>
                    </form>
                 </div>
-                
-                <a href="https://www.linkedin.com/in/laura-snider/" target="_blank" rel="noopener noreferrer" className="btn-outline w-full py-4 text-xs tracking-[0.3em] flex items-center justify-center gap-2">
-                   <Linkedin size={16} /> Connect on LinkedIn
-                </a>
              </motion.div>
           </div>
         </div>

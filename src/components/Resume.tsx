@@ -1,22 +1,22 @@
-import { FileText, Download, CheckCircle2, ArrowUpRight, Linkedin } from "lucide-react";
+import { FileText, CheckCircle2, ArrowUpRight } from "lucide-react";
 
 export function Resume() {
   const resumeHighlights = [
     {
-      category: "Enterprise Project Management",
-      detail: "Led onshore and offshore business & IT teams delivering multi-million and $1B+ enterprise software initiatives."
+      category: "Enterprise Operations & P&L",
+      detail: "Managing Director at Metro Growth Inc, Former COO at SquareResults, and Head of Operations for Uber NA Driver Support (400+ staff)."
     },
     {
-      category: "ServiceNow Budget & ROI Control",
-      detail: "Managed resources, cost plans, and calculated Return on Investment (ROI) for projects up to $1B–$2B."
+      category: "Fortune 100 GTM & DTC Scaling",
+      detail: "Founding leadership building early-stage DTC programs, field ops, and 100+ experience stores across Amazon, Ring, Samsung, Microsoft, and Apple."
     },
     {
-      category: "Agile & Waterfall Governance",
-      detail: "Proven expertise across Scrum, Sprint Planning, PI Planning, Retrospectives, and traditional Waterfall SDLC."
+      category: "Servant Leadership & Culture",
+      detail: "Cultivating empowered teams, continuous improvement, and employee career development, achieving a 99% retention rate during acquisitions."
     },
     {
-      category: "C-Level Executive Communication",
-      detail: "Expertly translated corporate strategy into actionable plans for global teams across Healthcare, Telecom, and Banking."
+      category: "Civic & Public Safety Advocacy",
+      detail: "Directing Metro Growth Cares non-profit, CAPS 1832 beat facilitator, CPD Advisory Council, and MBE/WBE certified initiatives in Chicago."
     }
   ];
 
@@ -31,19 +31,16 @@ export function Resume() {
                 Curriculum Vitae & <span className="italic font-bold text-brand-accent">Executive Summary</span>
               </h2>
               <p className="text-base text-brand-muted font-sans mt-3 max-w-xl">
-                Comprehensive overview of 25+ years of Project & Program Management leadership, budget governance, and team alignment.
+                Comprehensive overview of Lisa Seigneur’s executive leadership, operations management, P&L scaling, and civic engagement.
               </p>
             </div>
 
             <div className="flex flex-wrap items-center gap-4">
               <a
-                href="https://www.linkedin.com/in/laura-snider/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#contact"
                 className="btn-accent px-8 py-4 flex items-center gap-3 text-sm font-bold tracking-widest uppercase shadow-md hover:shadow-lg transition-all"
               >
-                <Linkedin size={18} />
-                LinkedIn Profile
+                Inquire & Contact
               </a>
             </div>
           </div>

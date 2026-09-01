@@ -1,33 +1,33 @@
-import { Target, Users, Lightbulb, Briefcase, TrendingUp, Cpu, DollarSign, Layers } from "lucide-react";
+import { Target, Users, Lightbulb, Briefcase, TrendingUp, Landmark } from "lucide-react";
 
 export function Skills() {
   const strengths = [
-    { title: "Project & Program Management", icon: Target },
-    { title: "Budgeting & ServiceNow ROI ($1-2B)", icon: DollarSign },
-    { title: "Team Empowerment & Leadership", icon: Users },
-    { title: "Agile, Scrum & PI Planning", icon: Layers },
-    { title: "Global Onshore/Offshore Vendor Management", icon: Briefcase },
-    { title: "Risk Assessment & Change Controls", icon: TrendingUp },
+    { title: "Strategic Planning & Growth", icon: Target },
+    { title: "Operations & P&L Leadership", icon: TrendingUp },
+    { title: "Project & Program Management (PMP)", icon: Briefcase },
+    { title: "Organizational Culture & Retention", icon: Users },
+    { title: "Government Relations & Civic Impact", icon: Landmark },
+    { title: "Go-To-Market & Retail Expansion", icon: Lightbulb },
   ];
 
   const specialization = [
-    { title: "Project Management", desc: "End-to-end delivery of complex enterprise systems across business & IT." },
-    { title: "PMP Certified", desc: "PMBOK methodologies, governance, risk mitigation, and budget tracking." },
-    { title: "Scrum Fundamentals", desc: "Sprint planning, backlog refinement, PI planning, retrospectives." },
-    { title: "Team Empowerment", desc: "Fostering collaboration, empathetic leadership, and clear accountability." },
+    { title: "Real Estate Development", desc: "Multi-family housing acquisition, infrastructure, and urban revitalization." },
+    { title: "Infrastructure Planning", desc: "Urban development and community infrastructure strategies." },
+    { title: "Economic Revitalization", desc: "Empowering small businesses, NFPs, and local employment growth." },
+    { title: "Civic Engagement", desc: "Public safety policy, CAPS beat facilitation, and political campaign execution." },
+    { title: "Talent Experience Platforms", desc: "SaaS recruitment platforms and multi-market talent acquisition." },
+    { title: "GTM Strategy & Retail Ops", desc: "Omni-channel expansion across Amazon, Apple, Microsoft, and Samsung." },
+    { title: "Community Impact Programs", desc: "Directing Metro Growth Cares non-profit and corporate citizenship." },
+    { title: "Organizational Culture Building", desc: "Empowering teams, continuous improvement, and 99% retention models." },
   ];
 
   const qualifications = [
-    "Agile", "JIRA/Confluence", "ADO (Azure DevOps)", "Budgets & Cost Plans",
-    "Team Building & Leadership", "Strategic Business Analysis", "Software Applications",
-    "CRM & Salesforce", "SharePoint", "Initiative & Ethics", "Problem Solving",
-    "Capacity Planning", "Waterfall", "MS Project / PWA", "Planview",
-    "Risk Management & Assessment", "Change Controls", "Global Deployments", "SDLC",
-    "Interpersonal Relations", "Even Temperament", "Excellent Communication", "Writing Skills",
-    "Documentation & Training", "Project Management", "PMO", "Company Acquisitions & Integrations",
-    "Vendor Management", "Client Management", "PMBOK Methodologies", "Process Management",
-    "Thoroughness", "Empowers Others", "Time Management", "Marketing",
-    "AIO & Spotfire Reporting", "ServiceNow"
+    "Strategic Planning", "Operations Management", "Project & Program Leadership",
+    "Organizational Transformation", "Community Development", "Government Relations",
+    "Talent Acquisition", "Change Management", "Cross-Functional Leadership",
+    "Business Development", "Salesforce", "SaaS Platforms", "PMP® Certified",
+    "MBE/WBE Certified", "Omni-Channel Retail", "P&L Management", "Public Safety Policy",
+    "DTC Execution", "Customer Experience (CX)", "Servant Leadership", "Nonprofit Governance"
   ];
 
   return (
@@ -38,9 +38,9 @@ export function Skills() {
           {/* Left: Specialization */}
           <div className="space-y-12 text-center lg:text-left flex flex-col items-center lg:items-start">
             <div>
-              <div className="section-label justify-center lg:justify-start">CORE SPECIALIZATION</div>
+              <div className="section-label justify-center lg:justify-start">SPECIALIZATION & EXPERTISE</div>
               <h2 className="text-4xl font-black mb-8 text-brand-primary uppercase tracking-tighter leading-none">
-                Specialization & <br /> Enterprise Focus
+                Multifaceted Executive <br /> Specialization
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left w-full">
                 {specialization.map(item => (
@@ -54,7 +54,7 @@ export function Skills() {
             </div>
           </div>
 
-          {/* Right: Core Strengths */}
+          {/* Right: Key Capabilities */}
           <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
             <div className="section-label justify-center lg:justify-start">KEY CAPABILITIES</div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full justify-items-center lg:justify-items-start">
@@ -73,9 +73,9 @@ export function Skills() {
         {/* Qualifications Cloud Grid */}
         <div className="border-t border-brand-primary/10 pt-20">
           <div className="text-center mb-12">
-            <div className="section-label justify-center">QUALIFICATIONS & METHODOLOGIES</div>
+            <div className="section-label justify-center">SKILLSET & DOMAIN COMPETENCIES</div>
             <h3 className="text-3xl md:text-4xl font-display font-light text-brand-primary">
-              Comprehensive <span className="italic font-bold text-brand-accent">Management & Tooling Skillset</span>
+              Core <span className="italic font-bold text-brand-accent">Executive Competencies</span>
             </h3>
           </div>
 

@@ -1,26 +1,26 @@
-import { Users, Award, Globe2, GraduationCap } from "lucide-react";
+import { Users, Award, Globe2, Building2 } from "lucide-react";
 
 export function Hero() {
   const trustMetrics = [
     {
       icon: <Users size={16} className="text-brand-accent" />,
-      value: "25+",
-      label: "YEARS EXPERIENCE",
+      value: "400+",
+      label: "TEAMS LED (UBER)",
     },
     {
       icon: <Award size={16} className="text-brand-accent" />,
+      value: "$400M",
+      label: "REVENUE SCALED",
+    },
+    {
+      icon: <Globe2 size={16} className="text-brand-accent" />,
       value: "PMP",
       label: "PMI CERTIFIED",
     },
     {
-      icon: <Globe2 size={16} className="text-brand-accent" />,
-      value: "CSM",
-      label: "SCRUM MASTER",
-    },
-    {
-      icon: <GraduationCap size={16} className="text-brand-accent" />,
-      value: "$1B+",
-      label: "BUDGETS MANAGED",
+      icon: <Building2 size={16} className="text-brand-accent" />,
+      value: "100+",
+      label: "STORES LAUNCHED",
     }
   ];
 
@@ -31,19 +31,19 @@ export function Hero() {
           {/* Narrative Column */}
           <div className="lg:col-span-12 xl:col-span-7 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
             <div className="w-full">
-              <div className="section-label justify-center lg:justify-start">PROJECT MANAGER / PROGRAM MANAGER</div>
+              <div className="section-label justify-center lg:justify-start">EXECUTIVE LEADER & OPERATIONS STRATEGIST</div>
               
               <h1 className="text-6xl md:text-[80px] xl:text-[90px] font-display font-light leading-[0.9] tracking-tighter text-brand-primary mb-10">
-                Laura <br />
-                <span className="italic font-bold text-brand-accent">Snider.</span>
+                Lisa <br />
+                <span className="italic font-bold text-brand-accent">Seigneur.</span>
               </h1>
 
               <div className="max-w-xl mx-auto lg:ml-0">
                 <p className="text-xl md:text-2xl text-brand-muted font-display italic leading-tight mb-8">
-                  Project Manager II · Agile & Waterfall Enterprise Software Delivery
+                  Managing Director, Metro Growth Inc · Former COO, SquareResults · Head of Operations, Uber
                 </p>
                 <p className="text-base text-brand-muted font-sans mb-12 leading-relaxed">
-                  Laura Snider excels as a Project Manager, effectively leading both business and IT teams onshore and offshore. She possesses the acumen to manage complex enterprise projects up to $1B-$2B and ensure timely completion across Healthcare, Telecommunications, Finance, and Retail environments.
+                  Lisa Seigneur is a dynamic executive leader with a proven track record of driving transformational growth across Fortune 100 companies and high-impact startups. Her entrepreneurial mindset and operational rigor have shaped scalable strategies in real estate, tech, and community development.
                 </p>
 
                 <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-16">
@@ -76,8 +76,8 @@ export function Hero() {
           <div className="lg:col-span-12 xl:col-span-5 relative min-h-[450px] lg:min-h-[550px] aspect-[4/5] lg:aspect-auto w-full bg-brand-bg overflow-hidden border border-brand-primary/10 rounded-2xl shadow-premium">
             <div className="absolute inset-0">
               <img 
-                src="/images/Laura_Snider.jpg" 
-                alt="Laura Snider" 
+                src="/images/Lisa_Seigneur.png" 
+                alt="Lisa Seigneur" 
                 className="w-full h-full object-cover object-top brightness-105"
               />
               {/* Subtle Overlays */}
@@ -88,7 +88,7 @@ export function Hero() {
               <div className="bg-white/80 backdrop-blur-md p-5 sm:p-6 max-w-[280px] sm:max-w-xs border border-brand-primary/5 shadow-premium">
                 <div className="font-mono text-[8px] md:text-[9px] font-bold uppercase tracking-widest text-brand-accent mb-1 md:mb-2">Leadership Philosophy</div>
                 <div className="text-sm sm:text-base font-display italic text-brand-primary leading-snug">
-                   "Empathetic leadership, trusted by global teams and executive management to deliver results."
+                   "Servant leadership, stakeholder trust, and continuous improvement driving transformational impact."
                 </div>
               </div>
             </div>
